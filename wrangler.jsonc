@@ -1,0 +1,14 @@
+{
+  "name": "new-bike-for-egg-wiki",
+  "compatibility_date": "2024-09-01",
+  "workers_dev": false,
+  "assets": {
+    "directory": "./out"
+  },
+  "routes": [
+    {
+      "pattern": "new-bike-for-egg.wiki",
+      "custom_domain": true
+    }
+  ]
+}

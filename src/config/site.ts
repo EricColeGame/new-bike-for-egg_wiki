@@ -19,18 +19,17 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Bike For Egg Wiki",
+  shortName: "Bike For Egg",
+  logoText: "B",
+  tagline: "Egg Collecting, Bikes, Pets & Money Guides",
+  description: "Your complete fan guide to Bike For Egg on Roblox, with codes, bike rankings, egg and pet guides, speed upgrades, money farming tips, and beginner strategies.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://new-bike-for-egg.wiki",
+  supportEmail: "support@new-bike-for-egg.wiki",
+  gameUrl: "https://www.roblox.com/games/74023858073178/Bike-For-Egg",
+  heroVideoId: "AGlHRZvp_M0",
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    youtube: "https://www.youtube.com/watch?v=AGlHRZvp_M0",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",

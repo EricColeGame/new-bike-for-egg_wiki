@@ -7,7 +7,7 @@ import { routing, type Locale } from "@/i18n/routing";
 import en from "@/locales/en.json";
 import HomePageClient from "./HomePageClient";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://new-bike-for-egg.wiki";
 
 type Messages = typeof en;
 
@@ -18,7 +18,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: messages.home.meta.title,
     description: messages.home.meta.description,
     alternates: { canonical: `/${locale}`, languages: Object.fromEntries(routing.locales.map((loc) => [loc, `/${loc}`])) },
-    openGraph: { title: messages.home.meta.title, description: messages.home.meta.description, url: `${siteUrl}/${locale}`, images: [`${siteUrl}/images/hero.webp`] },
+    openGraph: { title: messages.home.meta.title, description: messages.home.meta.description, url: `${siteUrl}/${locale}`, siteName: siteConfig.name, images: [{ url: `${siteUrl}/images/hero.webp`, width: 1280, height: 720, alt: `${siteConfig.name} hero image` }] },
+    twitter: { card: "summary_large_image", title: messages.home.meta.title, description: messages.home.meta.description, images: [`${siteUrl}/images/hero.webp`] },
   };
 }
 
@@ -27,7 +28,7 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
   const loc = locale as Locale;
   const messages = (await getMessages({ locale })) as Messages;
   const navGroups = getDynamicNavigation(loc);
-  const webSite = { "@context": "https://schema.org", "@type": "WebSite", name: siteConfig.name, url: siteUrl, description: messages.home.meta.description };
+  const webSite = { "@context": "https://schema.org", "@type": "WebSite", name: siteConfig.name, alternateName: "New Bike for Egg Wiki", url: `${siteUrl}/${locale}`, description: messages.home.meta.description, inLanguage: locale };
 
   // 动态加载所有 content 目录下的文章
   const allArticles: ContentItem[] = [];

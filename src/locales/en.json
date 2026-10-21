@@ -13,13 +13,13 @@
   },
   "home": {
     "meta": {
-      "title": "Bike For Egg Wiki - Codes, Bikes & Pets",
-      "description": "Find Bike For Egg codes, bike rankings, pet and egg guides, speed upgrades, money farming tips, mutations, and beginner strategies for Roblox players."
+      "title": "New Bike for Egg Wiki - Codes, Bikes & Pets",
+      "description": "Explore New Bike for Egg guides for codes, bike speed tiers, egg rarity, pet income, controls, updates, and beginner progression on Roblox."
     },
     "hero": {
-      "eyebrow": "Roblox Egg Collecting Pet Tycoon",
-      "title": "Bike For Egg Wiki",
-      "description": "Explore Bike For Egg guides for bikes, pets, eggs, speed upgrades, money farming, mutations, codes, and beginner strategies.",
+      "eyebrow": "Roblox Egg-Collecting Bike Tycoon",
+      "title": "New Bike for Egg Wiki",
+      "description": "Master New Bike for Egg with practical guides to bike speed multipliers, egg rarity, pet income, codes, controls, and fast early progression.",
       "stats": [
         "2.8M+ Total Visits",
         "8 Bikes Available",
@@ -28,111 +28,111 @@
       ],
       "primaryCta": "Play on Roblox",
       "secondaryCta": "Beginner Guide",
-      "tertiaryCta": "Active Codes",
-      "videoLabel": "Bike For Egg Gameplay"
+      "tertiaryCta": "Codes & Rewards",
+      "videoLabel": "New Bike for Egg Gameplay"
     },
     "updates": {
-      "title": "Latest Updates",
+      "title": "Latest New Bike for Egg Updates",
       "browse": "Browse All Guides",
       "viewAll": "View All"
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your Bike For Egg Journey",
+      "title": "Your New Bike for Egg Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the core loop: claim the free Standard Bike, run egg routes, hatch pets, and place them for passive income."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Fastest Bike Upgrades",
+          "description": "Follow the bike ladder from the 200 Money Football Bike to Frost, Righteous, Korblox, and Frozen Flame."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Best Egg Farming",
+          "description": "Build tight two-zone routes, bank eggs in batches, and target higher-rarity pools before spending."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Bike For Egg."
+          "title": "Working Codes",
+          "description": "Check the redemption steps and the current code status before grinding for your next ride."
         }
       ]
     },
     "popular": {
       "eyebrow": "Popular Pages",
-      "title": "Trending Now",
+      "title": "Trending New Bike for Egg Guides",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Bike Speed Tiers",
+        "Egg Rarity",
+        "All Codes"
       ],
       "cards": [
         {
-          "badge": "Beginner",
-          "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "badge": "Start",
+          "title": "New Bike for Egg Beginner Guide",
+          "description": "Claim the free bike, learn the Safe Zone, and build a repeatable egg-to-pet loop.",
+          "href": "/guide/new-bike-for-egg-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Codes",
+          "title": "New Bike for Egg Codes",
+          "description": "See the current code status, redemption steps, and the fastest free Money route.",
+          "href": "/codes/new-bike-for-egg-codes"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Bikes",
+          "title": "Every Bike Ranked by Speed",
+          "description": "Compare all eight bikes by Speed multiplier, Money price, and Robux cost.",
+          "href": "/community/new-bike-for-egg-reddit"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Eggs",
+          "title": "Egg Rarity and Hatch Odds",
+          "description": "Understand common through legendary eggs and when to hatch in batches.",
+          "href": "/mechanics/new-bike-for-egg-egg-rarity"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Pets",
+          "title": "Pets and Passive Income",
+          "description": "Learn how placed pets generate Money and when to use the Fuse Lab.",
+          "href": "/items/new-bike-for-egg-pets"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "badge": "Controls",
+          "title": "Mobile Controls Setup",
+          "description": "Tune steering, throttle, braking, camera speed, and touch button size.",
+          "href": "/controls/new-bike-for-egg-mobile-controls"
         },
         {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "badge": "Updates",
+          "title": "Latest New Bikes",
+          "description": "Review the newest rides and the speed gains that matter for egg farming.",
+          "href": "/updates/new-bike-for-egg-new-bikes"
         },
         {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "badge": "Community",
+          "title": "Discord Trading Guide",
+          "description": "Prepare an egg trade, verify offers, and avoid common scam patterns.",
+          "href": "/community/new-bike-for-egg-discord"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Secrets",
+          "title": "Secret Egg Guide",
+          "description": "Find secret egg spawns, time your routes, and reach the zone before rivals.",
+          "href": "/guide/new-bike-for-egg-secret-egg-guide"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is Bike For Egg?",
+      "title": "What is New Bike for Egg?",
       "paragraphs": [
-        "Bike For Egg is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "New Bike for Egg is a free-to-play Roblox tycoon game from Huron Games. You ride out from a Safe Zone, steal eggs from zones and rival bases, hatch them into pets, and let those pets generate Money while you plan the next run.",
+        "Bikes multiply the Speed you earn on the treadmill beside your base, so each upgrade shortens every egg loop. The roster runs from the free Standard Bike to the Frozen Flame Bike, while egg rarity, trails, the Fuse Lab, and base upgrades shape how quickly your pet income grows."
       ],
       "stats": [
         {
@@ -145,192 +145,322 @@
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Egg-Collecting Tycoon"
+        },
+        {
+          "label": "Bikes",
+          "value": "8"
+        },
+        {
+          "label": "Release",
+          "value": "Sep 15, 2026"
         },
         {
           "label": "Visits",
-          "value": "12.6M+"
-        },
-        {
-          "label": "Favorites",
-          "value": "243K+"
-        },
-        {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "value": "2.8M+"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore Bike For Egg Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore the New Bike for Egg Wiki",
+      "description": "Use these New Bike for Egg guides to plan faster egg runs, choose the right bike, understand rarity and pets, redeem codes, and learn the controls.",
       "modules": [
         {
           "order": 1,
-          "name": "Bike For Egg Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/bike-for-egg-codes",
-          "displayType": "code-box",
+          "name": "New Bike for Egg Beginner Guide",
+          "description": "Start with the free Standard Bike, learn the Safe Zone and Bike Shop, and build a repeatable egg-to-pet income loop.",
+          "href": "/guide/new-bike-for-egg-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Complete the tutorial objectives so your base and Money counter are active."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Save for the first base upgrade instead of spending on cosmetics."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Claim the free Standard Bike as soon as the first base upgrade lands."
+            },
+            {
+              "label": "4",
+              "detail": "Run a short egg route to learn spawn locations, turns, and braking distance."
+            },
+            {
+              "label": "5",
+              "detail": "Hatch and place pets immediately so passive Money income starts."
+            },
+            {
+              "label": "6",
+              "detail": "Bank toward the Football Bike only after your pet income is working."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/bike-for-egg-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "New Bike for Egg Bikes and Upgrades",
+          "description": "Compare all eight rides by Speed multiplier and price, from the free Standard Bike to the 500 billion Money Frozen Flame Bike.",
+          "href": "/community/new-bike-for-egg-reddit",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "S",
+              "detail": "Frozen Flame Bike - x9 Speed for 500B Money or 159 Robux."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "A",
+              "detail": "Korblox Bike - x7 for 1B Money; Righteous Bike - x5 for 150M."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "B",
+              "detail": "World Bike - x4 for 35 Robux; Frost Bike - x3 for 1M Money."
+            },
+            {
+              "label": "C",
+              "detail": "Space Bike - x2 for 50K; Football Bike - x1.5 for 200 Money; Standard Bike - x1 and free."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/bike-for-egg-tier-list",
-          "displayType": "tier-grid",
+          "name": "New Bike for Egg Progression Guide",
+          "description": "Turn eggs into a reliable bike unlock by clearing the intro, protecting your egg count, and running one efficient farm loop.",
+          "href": "/guide/new-bike-for-egg-how-to-unlock-eggs",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "1",
+              "detail": "Finish the intro chain until the egg source is permanently active."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "2",
+              "detail": "Clear storage and hatch or bank eggs that are not part of the unlock."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "3",
+              "detail": "Pick one primary egg source instead of splitting attention across three farms."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "4",
+              "detail": "Build a closed loop that ends back at the same fast-travel point."
+            },
+            {
+              "label": "5",
+              "detail": "Check respawn timers and collect special eggs before common eggs."
+            },
+            {
+              "label": "6",
+              "detail": "Complete the hand-off as soon as the required egg count is met."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/bike-for-egg-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "New Bike for Egg Codes",
+          "description": "Follow the redemption flow, confirm whether a code list is live, and use the free Money route when the code box is empty.",
+          "href": "/codes/new-bike-for-egg-codes",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "NO CODE",
+              "detail": "No active New Bike for Egg codes are listed for October 2026."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "REDEEM",
+              "detail": "Open the in-game codes or settings panel, paste the string exactly, and press Redeem."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "CHECK",
+              "detail": "Recheck the official Roblox page and developer social accounts after each update."
+            },
+            {
+              "label": "EARN",
+              "detail": "Run repeatable egg routes and bank Money for the 200 Money Football Bike."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/bike-for-egg-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "New Bike for Egg Tips and Tricks",
+          "description": "Improve every session with better routes, pet placement, trail upgrades, and a cash buffer that keeps your income moving.",
+          "href": "/mechanics/new-bike-for-egg-egg-collection",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Routes",
+              "detail": "Chain two or three nearby spawn points before returning to the Safe Zone."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Pets",
+              "detail": "Place every hatched pet immediately so its passive Money income starts."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Fuse Lab",
+              "detail": "Combine three similar pets into a higher-weight egg of the same species."
+            },
+            {
+              "label": "Trails",
+              "detail": "Upgrade your trail multiplier because it stacks with the bike Speed bonus."
+            },
+            {
+              "label": "Reserve",
+              "detail": "Keep enough Money for hatching after a bike purchase so progress does not stall."
+            },
+            {
+              "label": "Updates",
+              "detail": "Recheck the Bike Shop after a patch because prices and multipliers can change."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/bike-for-egg-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "New Bike for Egg Unlockables",
+          "description": "Track the egg rarities, pets, trails, and bike rewards that expand your garage and raise passive income.",
+          "href": "/mechanics/new-bike-for-egg-egg-rarity",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Common",
+              "detail": "Early-zone eggs fill the first pet slots and teach the hatch loop."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Uncommon",
+              "detail": "Mid-tier eggs add stronger pets and a useful trail upgrade step."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Rare",
+              "detail": "Rare eggs unlock faster frames and the main progression pets."
+            },
+            {
+              "label": "Epic",
+              "detail": "Epic eggs combine strong Speed with better handling for contested zones."
+            },
+            {
+              "label": "Legendary",
+              "detail": "Legendary eggs sit near the top of the hatch pool and fund late-game bikes."
+            },
+            {
+              "label": "Mythic",
+              "detail": "Mythic eggs come from the farthest zones and carry the rarest rewards."
+            },
+            {
+              "label": "Secret",
+              "detail": "Secret egg spawns reward fast riders who reach the zone before other players."
+            },
+            {
+              "label": "Fuse Lab",
+              "detail": "Three similar pets can become one higher-weight egg of the same species."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "New Bike for Egg Controls",
+          "description": "Set up mobile steering, throttle, braking, and camera response so a faster bike stays controllable in tight egg zones.",
+          "href": "/controls/new-bike-for-egg-mobile-controls",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "STICK",
+              "detail": "Use the virtual joystick for the most forgiving steering on small phones."
+            },
+            {
+              "label": "TILT",
+              "detail": "Calibrate tilt steering and keep sensitivity low for long sweeping corners."
+            },
+            {
+              "label": "THROTTLE",
+              "detail": "Apply partial throttle out of turns to avoid sliding wide on a faster bike."
+            },
+            {
+              "label": "BRAKE",
+              "detail": "Move your braking point earlier because upgraded bikes carry more speed."
+            },
+            {
+              "label": "CAMERA",
+              "detail": "Raise camera follow speed when corners arrive faster than the view."
+            },
+            {
+              "label": "HUD",
+              "detail": "Scale touch buttons to 110 to 120 percent so drift inputs are not missed."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "New Bike for Egg FAQ",
+          "description": "Get quick answers about the free starter bike, the Bike Shop, pet income, egg rarity, and the current code status.",
+          "href": "/guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Start",
+              "detail": "New Bike for Egg begins with the tutorial, the Safe Zone, and the free Standard Bike."
+            },
+            {
+              "label": "Bikes",
+              "detail": "The Bike Shop on the right side of the Safe Zone sells every ride after the starter."
+            },
+            {
+              "label": "Money",
+              "detail": "Pets generate Money every second, and that income funds each bike upgrade."
+            },
+            {
+              "label": "Eggs",
+              "detail": "Higher-rarity eggs take longer to reach but unlock stronger pets and rewards."
+            },
+            {
+              "label": "Codes",
+              "detail": "No active codes are listed, so egg routes remain the reliable Money source."
+            },
+            {
+              "label": "Fuse",
+              "detail": "The Fuse Lab turns three similar pets into one higher-weight egg of the same species."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Bike For Egg.",
+      "title": "New Bike for Egg FAQ",
+      "description": "Answers to the most common New Bike for Egg questions about bikes, Money, eggs, pets, codes, and progression.",
       "items": [
         {
-          "question": "What is Bike For Egg?",
-          "answer": "Bike For Egg is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is New Bike for Egg?",
+          "answer": "New Bike for Egg is a Roblox tycoon game from Huron Games where players steal eggs, hatch pets, earn passive Money, and upgrade bikes for faster runs."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How do I get the first bike in New Bike for Egg?",
+          "answer": "Buy your first base upgrade, then claim the free Standard Bike. The Football Bike is the next step at 200 Money or 1 Robux."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "What is the fastest bike in New Bike for Egg?",
+          "answer": "The Frozen Flame Bike has the highest Speed multiplier at x9. It costs 500 billion Money or 159 Robux at the Bike Shop."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How does Money work in New Bike for Egg?",
+          "answer": "Hatched pets generate Money every second. Keep pets placed, clear egg routes, and reinvest in bikes, trails, and base upgrades."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Are there working New Bike for Egg codes?",
+          "answer": "No active New Bike for Egg codes are listed for October 2026. Check the official Roblox page and developer accounts after updates."
+        },
+        {
+          "question": "What should I upgrade after a New Bike for Egg bike?",
+          "answer": "Upgrade pet slots, trails, egg storage, and zone access before buying another bike. These systems keep pet income and egg runs moving."
+        },
+        {
+          "question": "Where is the Bike Shop in New Bike for Egg?",
+          "answer": "The Bike Shop is on the right side of the Safe Zone. Equip a purchased bike there and test its multiplier on the treadmill."
         }
       ]
     },
     "finalCta": {
-      "title": "Ready to Master Bike For Egg?",
-      "description": "From your first egg to faster bikes and bigger bases, our community wiki has the codes, rankings, and beginner guides you need.",
+      "title": "Ready to Master New Bike for Egg?",
+      "description": "From your first free bike to Frozen Flame speed, our New Bike for Egg wiki covers codes, bike tiers, eggs, pets, controls, and progression.",
       "primary": "Read the Beginner Guide",
       "secondary": "Play on Roblox"
     }

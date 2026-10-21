@@ -9,7 +9,42 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "items": "Items",
+    "updates": "Updates",
+    "community": "Community",
+    "controls": "Controls",
+    "codes": "Codes"
+  },
+  "guide": {
+    "overviewTitle": "New Bike for Egg Guide: Start Strong",
+    "overviewDescription": "Learn how to play New Bike for Egg, unlock your first rides and eggs, find rare eggs, and follow the fastest bike progression."
+  },
+  "mechanics": {
+    "overviewTitle": "New Bike for Egg Mechanics Explained",
+    "overviewDescription": "Understand bike speed, egg collection, egg rarity, egg stealing, racing, and hatching systems in New Bike for Egg."
+  },
+  "items": {
+    "overviewTitle": "New Bike for Egg Items: Eggs, Pets & Bikes",
+    "overviewDescription": "Compare rare, mythic, and secret eggs, discover the best bikes, and build a stronger pet collection in New Bike for Egg."
+  },
+  "updates": {
+    "overviewTitle": "New Bike for Egg Updates & Events",
+    "overviewDescription": "Track new updates, seasonal events, fresh bikes, and feature changes across the New Bike for Egg roadmap."
+  },
+  "community": {
+    "overviewTitle": "New Bike for Egg Community & Resources",
+    "overviewDescription": "Find New Bike for Egg Reddit discussions, Discord communities, gameplay videos, and player-shared strategies."
+  },
+  "controls": {
+    "overviewTitle": "New Bike for Egg Controls & Riding Tips",
+    "overviewDescription": "Master New Bike for Egg keyboard, mobile, and controller controls, then improve bike movement and riding routes."
+  },
+  "codes": {
+    "overviewTitle": "New Bike for Egg Codes",
+    "overviewDescription": "Find working New Bike for Egg codes, learn how to redeem them, and claim free rewards for your next ride."
   },
   "home": {
     "meta": {
@@ -496,9 +531,9 @@
     "officialYoutube": "Bike For Egg Gameplay Video",
     "vvBuilder": "Bike For Egg Tools",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "mechanicsGuides": "Mechanics",
+    "itemsGuides": "Items & Pets",
+    "updatesGuides": "Updates",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

@@ -1,0 +1,128 @@
+export const metadata = {
+  title: "Sepeda Baru untuk Egg Controls: Cara Memilih dan Menyiapkan E-Bike yang Siap EggRider",
+  description: "Sedang mencari sepeda baru untuk Egg controls? Pelajari cara kerja kompatibilitas EggRider, protokol controller, dan penyiapan display sebelum membeli.",
+  category: "controls",
+  date: "2026-10-21",
+}
+
+## Mengapa Sepeda Baru untuk Egg Controls Dimulai dari Controller
+
+Sebagian besar pembeli membandingkan motor, baterai, dan geometri rangka. Jika Anda merencanakan sepeda baru untuk Egg controls, bagian yang sebenarnya menentukan apakah setup Anda berfungsi adalah controller yang terpasang pada rangka — atau tersegel di dalam casing motor. EggRider adalah sistem display dan aplikasi yang memungkinkan Anda mempersonalisasi perilaku bantuan, beralih antara profil Road dan OffRoad, serta mengambil statistik perjalanan terperinci. EggRider hanya membuka kontrol tersebut ketika sepeda di bawahnya berbicara dalam bahasa yang tepat.
+
+Itulah sebabnya sepeda baru untuk Egg controls sebaiknya dipilih secara terbalik: tentukan dulu pengalaman display dan aplikasi yang Anda inginkan, lalu pastikan controller, konektor, dan voltase sepeda tersebut mendukungnya.
+
+Dua lapisan menentukan segalanya:
+
+- **Hardware** — voltase, jenis konektor, dan pinout.
+- **Software** — protokol komunikasi yang digunakan controller.
+
+Jika salah satu saja keliru, display mungkin menyala tetapi tidak menampilkan kecepatan, memunculkan error komunikasi, atau diam-diam menolak menyimpan pengaturan.
+
+| Faktor Kompatibilitas | Yang Perlu Diverifikasi | Mengapa Penting |
+|---|---|---|
+| Merek controller | Bafang, Lishui, Kunteng, ASI, atau Grin | Menentukan halaman pengaturan mana yang terbuka di aplikasi |
+| Protokol | UART vs. CAN bus | Mid-drive berbasis CAN memerlukan display warna yang mendukung CAN; display ringkas tidak kompatibel |
+| Konektor | Higo/Julet waterproof 5-pin atau KM 5-pin screw | Steker yang tidak cocok dapat merusak unit dan membatalkan garansi |
+| Voltase | Disarankan 52V nominal, batas maksimum mutlak 60V | Menghubungkan di atas 60V saat terisi penuh akan merusak display secara permanen |
+| Stang | Bagian lurus 22,2 mm (ringkas); 31,8 mm atau 22,2 mm (warna) | Dudukan harus pas secara fisik sebelum hal lain |
+
+## Cocokkan Motor dan Controller Sebelum Membeli
+
+Pada sepeda hub-drive, controller biasanya berada di kotak aluminium kecil pada rangka, di dalam dudukan baterai, atau terintegrasi ke rangka itu sendiri. Ikuti kabel display dan Anda akan menemukannya. Motor hub paling sering menggunakan controller Lishui atau Kunteng — dan keduanya hadir dengan variasi konektor yang jauh lebih banyak daripada steker waterproof 5-pin rapi yang orang harapkan.
+
+Sistem mid-drive berbeda. Mid-drive Bafang memiliki controller yang terpasang di dalam rumah motor, dan label casing memberi tahu Anda keluarga yang Anda miliki. Unit tersebut terbagi menjadi versi UART dan CAN bus, dan keduanya berperilaku sangat berbeda dengan Egg controls.
+
+| Keluarga Controller | Di Mana Menemukannya | Yang Dapat Diharapkan |
+|---|---|---|
+| Bafang UART mid-drive | BBS01, BBS02, BBSHD, M600, Ultra | Halaman pengaturan dasar, pedal, throttle, dan torsi secara lengkap |
+| Bafang CAN bus | M215, M315, M500, M510, M600, M620, M820 | Batas kecepatan dan strategi simulasi; beberapa firmware membatasi perubahan |
+| Lishui (LSW) | Banyak sepeda commuter dan cargo hub-drive | Tipe PAS, batas arus, batas kecepatan, strategi berjalan |
+| Kunteng (KT) | Build hub-drive hemat biaya | Jumlah magnet, mode bantuan, mode throttle, persentase batas arus |
+| ASI / Grin | Build premium, motor CYC, Rad Power seri 6 | Batas daya throttle dan PAS, arus fase, rasio regen |
+
+Satu peringatan yang perlu diulang: konektor yang identik tidak menjamin kompatibilitas. Laporan komunitas penuh dengan pengendara yang steker-nya cocok sempurna tetapi tetap mendapat pembacaan kecepatan kosong karena protokolnya salah. Pastikan controller-nya, bukan hanya kabelnya.
+
+## EggRider V2 vs. C1: Pilih Display untuk Build Anda
+
+Kedua display menjalankan aplikasi seluler yang sama dan berbagi arsitektur pengaturan yang sama, jadi keputusan biasanya bermuara pada ukuran layar, pemasangan, dan dukungan CAN.
+
+| Fitur | EggRider V2 | EggRider C1 |
+|---|---|---|
+| Layar | Ringkas, opsi tata letak v1/v2/v3 | Layar warna lebih besar, tampilan gulir tunggal |
+| Kesesuaian stang | Bagian lurus 22,2 mm | 31,8 mm dengan spacer yang beradaptasi ke 22,2 mm |
+| Tombol | Daya, naik/turun, dan sakelar mode di unit | Daya di unit plus remote stang |
+| Remote | Tidak termasuk | Termasuk, braket 22,2 mm, kabel 24 cm |
+| Motor CAN bus | Tidak kompatibel | Diperlukan versi CAN |
+| Konektivitas | Bluetooth Low Energy | Bluetooth Low Energy |
+| Perlindungan | Peringkat IP65 | Peringkat IP65 |
+
+Catatan praktis tentang pemasangan: sekrup set display warna harus dikencangkan hingga sekitar 0,8 newton-meter. Pengencangan berlebihan adalah kesalahan hari pertama yang umum dan tidak tercakup garansi.
+
+## Menyiapkan Egg Controls pada Sepeda Baru, Langkah demi Langkah
+
+Setelah sepeda berada di stand, kerjakan urutan ini secara berurutan. Melewati langkah adalah cara tercepat untuk akhirnya mengejar error yang membingungkan.
+
+| Langkah | Tindakan | Seperti Apa yang "Baik" |
+|---|---|---|
+| 1 | Pasang display pada bagian stang yang bersih | Aman, sedikit dapat diputar, tidak ada yang menghalangi layar |
+| 2 | Hubungkan hanya jenis konektor yang cocok | Steker terpasang perlahan menggunakan panduan — jangan pernah dipaksa atau dipelintir |
+| 3 | Periksa deteksi protokol saat pertama kali dinyalakan | Kecepatan terbaca 00 (atau 00.0); tidak ada ERROR COMM, tidak ada --.-, tidak ada FF |
+| 4 | Lakukan pairing melalui aplikasi, bukan menu Bluetooth ponsel | Perangkat muncul di daftar pencarian dan terhubung |
+| 5 | Aktifkan dengan nama toko dan ID pesanan | Aktivasi instan; detail yang salah menyebabkan penundaan |
+| 6 | Atur keliling roda dalam milimeter | Kecepatan cocok dengan referensi GPS |
+| 7 | Masukkan voltase baterai pada 0% dan 100%, plus kapasitas dalam Ah | Persentase baterai mengikuti kenyataan, bukan melompat-lompat |
+| 8 | Perbarui firmware ke rilis stabil terbaru | Semua fitur dan tata letak terkini tersedia |
+| 9 | Matikan menggunakan tombol display sendiri | Pengaturan dan data perjalanan tersimpan permanen |
+
+Langkah 3 adalah yang membedakan build yang mulus dari sore yang menyebalkan. Jika kecepatan tidak pernah menunjukkan angka nol yang bersih, berhenti dan perbaiki protokol sebelum menyentuh hal lain. Setelah menemukan protokol yang berfungsi, biarkan saja — mengubahnya nanti sambil menyalin pengaturan dari postingan forum adalah cara klasik untuk merusak sepeda yang sudah berfungsi.
+
+Langkah 7 juga perlu perhatian yang sama. Persentase baterai hanya seakurat titik akhir voltase dan kapasitas yang Anda masukkan. Paket 48V, misalnya, berada di sekitar 54,6V saat terisi penuh, bukan 48V. Masukkan angka pengisian penuh yang sebenarnya dan kapasitas sedikit di bawah angka pemasaran, karena paket baterai kehilangan kapasitas seiring waktu.
+
+Untuk unduhan firmware resmi dan daftar kompatibilitas terkini, periksa [situs web resmi EggRider](https://www.eggrider.com/) sebelum Anda mulai.
+
+## Setel Profil Road dan OffRoad
+
+Di sinilah sepeda baru untuk Egg controls mulai terasa benar-benar custom. Aplikasi menyimpan set konfigurasi lengkap — preferensi display plus parameter controller — sebagai profil yang dapat Anda beri nama, terapkan, dan bagikan dengan kode.
+
+Beberapa pengaturan membawa sebagian besar perbedaan di dunia nyata:
+
+| Pengaturan | Apa yang Berubah | Titik Awal yang Wajar |
+|---|---|---|
+| Level bantuan | Jumlah langkah antara 0 dan tenaga penuh | 5 level untuk commuting, 9 untuk medan bervariasi |
+| Batas arus (%) | Persentase dari batas arus global per level | 30–50% pada level rendah untuk melindungi drivetrain |
+| Batas kecepatan (%) | Persentase dari kecepatan maksimum per level | Pertahankan level 0 pada arus nol dan kecepatan nol |
+| Arus start (%) | Lonjakan arus awal dari keadaan berhenti | Nilai rendah — nilai tinggi membebani controller dan rantai |
+| Tegangan mulai throttle | Titik motor mulai merespons | Nilai rentang tengah untuk keterlibatan yang mulus |
+| Mode throttle | Respons berbasis kecepatan atau berbasis arus | Mode arus terasa jauh lebih mulus |
+
+Ingat perhitungan daya dasar: voltase baterai dikalikan batas arus sama dengan watt. Sistem 48V yang menarik 20A meminta 960W, yang jauh melampaui kemampuan banyak controller dan drivetrain stok untuk menangani secara terus-menerus.
+
+Pada beberapa controller Bafang, batas arus global dan cutoff tegangan rendah hanya dibaca saat restart sistem penuh. Artinya, beralih dari Road ke OffRoad di tengah perjalanan tidak akan memperbarui kedua nilai tersebut. Solusinya adalah menjaga batas arus global tetap sama di kedua profil dan memvariasikan persentase arus dan kecepatan per level sebagai gantinya.
+
+## Pemecahan Masalah Build Baru
+
+| Gejala | Kemungkinan Penyebab | Perbaikan |
+|---|---|---|
+| Kecepatan menunjukkan --.- atau ERROR COMM | Protokol tidak dikonfigurasi dengan benar | Jalankan ulang deteksi protokol dan kunci opsi yang berfungsi |
+| Kecepatan secara konsisten meleset beberapa persen | Nilai keliling roda | Ukur pelek plus ban dan masukkan milimeter |
+| Baterai turun dari penuh ke kosong terlalu cepat | Titik akhir voltase atau kapasitas salah | Masukkan kembali voltase 0% dan 100% serta kapasitas Ah |
+| Pengaturan kembali setelah perjalanan | Display tidak dimatikan dari tombolnya | Selalu matikan dari display, bukan dari baterai |
+| Pesan "No Lishui Settings" atau "No ASI Settings" | Pengaturan controller belum pernah dikonfigurasi | Buka halaman controller dan tulis pengaturan sekali |
+| Perkiraan jangkauan berbeda antara display dan aplikasi | Dua algoritma estimasi yang berbeda | Wajar — aplikasi dinamis, display merata-ratakan seluruh perjalanan |
+| Controller menolak perubahan atau mati | Firmware pabrik yang dibatasi | Display tetap berfungsi sebagai pembaca; konfigurasi penuh mungkin tidak |
+
+Jika penulisan pengaturan gagal berulang kali, berhenti memaksakannya. Beberapa controller membatasi berapa kali parameter dapat diubah, dan penulisan gagal berulang dapat meninggalkan Anda dalam status error yang memerlukan restart controller atau instalasi ulang firmware.
+
+## FAQ
+
+**Apakah saya perlu membeli merek sepeda tertentu untuk menggunakan Egg controls?**
+Tidak ada satu merek yang diwajibkan, tetapi Anda memerlukan controller yang kompatibel. Pastikan merek controller, jenis konektor, dan protokol sebelum membeli — merek motor saja tidak memberi tahu banyak.
+
+**Bisakah saya memindahkan display ke sepeda baru untuk Egg controls nanti?**
+Biasanya bisa, asalkan sepeda baru menggunakan controller yang didukung dan konektor yang cocok. Anda perlu mengulangi deteksi protokol, ukuran roda, dan pengaturan baterai, serta mengaktifkan ulang display jika dipasangkan ke akun berbeda.
+
+**Apakah display memerlukan ponsel saya terhubung saat berkendara?**
+Tidak. Display bekerja mandiri dan merekam data perjalanan sendiri. Aplikasi digunakan untuk konfigurasi, pembaruan firmware, dan analisis perjalanan yang lebih mendalam.
+
+**Mengapa sepeda baru saya untuk Egg controls menunjukkan kecepatan atau jangkauan yang salah?**
+Hampir selalu masalah konfigurasi — keliling roda untuk kecepatan, titik akhir voltase dan kapasitas untuk persentase baterai dan jangkauan. Perbaiki keduanya dan sebagian besar keluhan pembacaan akan hilang.

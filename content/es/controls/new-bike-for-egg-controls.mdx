@@ -1,0 +1,128 @@
+export const metadata = {
+  title: "Nueva bicicleta para controles Egg: cómo elegir y configurar una e-bike compatible con EggRider",
+  description: "¿Buscas una nueva bicicleta para controles Egg? Descubre cómo funcionan la compatibilidad con EggRider, los protocolos del controlador y la configuración de la pantalla antes de comprar.",
+  category: "controls",
+  date: "2026-10-21",
+}
+
+## Por qué una nueva bicicleta para controles Egg empieza por el controlador
+
+La mayoría de los compradores comparan motores, baterías y geometría del cuadro. Si estás planeando una nueva bicicleta para controles Egg, la pieza que realmente determina si tu configuración funciona es el controlador atornillado al cuadro — o sellado dentro de la carcasa del motor. EggRider es un sistema de pantalla y aplicación que te permite personalizar el comportamiento de la asistencia, alternar entre los perfiles Road y OffRoad, y obtener estadísticas detalladas de cada trayecto. Solo desbloquea ese control cuando la bicicleta que hay debajo habla el idioma correcto.
+
+Por eso una nueva bicicleta para controles Egg debería elegirse al revés: primero decide qué experiencia de pantalla y aplicación quieres, y luego confirma que el controlador, el conector y el voltaje de la bicicleta pueden soportarla.
+
+Dos capas lo deciden todo:
+
+- **Hardware** — voltaje, tipo de conector y distribución de pines.
+- **Software** — el protocolo de comunicación que utiliza el controlador.
+
+Si te equivocas en cualquiera de las dos, la pantalla puede encenderse pero no mostrar velocidad, lanzar un error de comunicación o negarse silenciosamente a guardar la configuración.
+
+| Factor de compatibilidad | Qué verificar | Por qué importa |
+|---|---|---|
+| Marca del controlador | Bafang, Lishui, Kunteng, ASI o Grin | Determina qué páginas de ajustes se desbloquean en la aplicación |
+| Protocolo | UART vs. bus CAN | Los mid-drive basados en CAN necesitan la pantalla a color compatible con CAN; la pantalla compacta no es compatible |
+| Conector | Higo/Julet impermeable de 5 pines o KM de 5 pines con rosca | Los enchufes incompatibles pueden dañar la unidad y anular la garantía |
+| Voltaje | 52 V nominal recomendado, 60 V como límite máximo | Conectar por encima de 60 V con la batería totalmente cargada daña la pantalla de forma permanente |
+| Manillar | Sección recta de 22,2 mm (compacta); 31,8 mm o 22,2 mm (color) | El soporte debe encajar físicamente antes que cualquier otra cosa |
+
+## Iguala el motor y el controlador antes de comprar
+
+En las bicicletas con motor de buje, el controlador suele ir en una pequeña caja de aluminio sobre el cuadro, dentro del soporte de la batería o integrado en el propio cuadro. Sigue el cable de la pantalla y lo encontrarás. Los motores de buje suelen usar controladores Lishui o Kunteng — y estos vienen con mucha más variedad de conectores que el ordenado enchufe impermeable de 5 pines que la gente espera.
+
+Los sistemas mid-drive son diferentes. Los mid-drive de Bafang llevan el controlador integrado en la carcasa del motor, y la etiqueta de la carcasa te dice a qué familia perteneces. Esas unidades se dividen en versiones UART y bus CAN, y ambas se comportan de forma muy distinta con los controles Egg.
+
+| Familia de controlador | Dónde encontrarlo | Qué esperar |
+|---|---|---|
+| Mid-drive Bafang UART | BBS01, BBS02, BBSHD, M600, Ultra | Páginas completas de ajustes básicos, de pedaleo, de acelerador y de par |
+| Bafang bus CAN | M215, M315, M500, M510, M600, M620, M820 | Límites de velocidad y estrategias de simulación; algunos firmwares restringen los cambios |
+| Lishui (LSW) | Muchas bicicletas urbanas y de carga con motor de buje | Tipo de PAS, límite de corriente, límite de velocidad, estrategia de funcionamiento |
+| Kunteng (KT) | Montajes económicos con motor de buje | Número de imanes, modo de asistencia, modo de acelerador, porcentajes de límite de corriente |
+| ASI / Grin | Montajes premium, motores CYC, Rad Power serie 6 | Límites de potencia de acelerador y PAS, corriente de fase, ratio de regeneración |
+
+Una advertencia que vale la pena repetir: conectores idénticos no garantizan compatibilidad. Los informes de la comunidad están llenos de ciclistas que igualaron los enchufes a la perfección y aun así obtuvieron una lectura de velocidad en blanco porque el protocolo era incorrecto. Confirma el controlador, no solo el cable.
+
+## EggRider V2 vs. C1: elige la pantalla para tu montaje
+
+Ambas pantallas usan la misma aplicación móvil y comparten la misma arquitectura de ajustes, así que la decisión suele reducirse al tamaño de la pantalla, el montaje y la compatibilidad con CAN.
+
+| Característica | EggRider V2 | EggRider C1 |
+|---|---|---|
+| Pantalla | Compacta, opciones de diseño v1/v2/v3 | Pantalla a color más grande, vista única con desplazamiento |
+| Encaje en manillar | Sección recta de 22,2 mm | 31,8 mm con un espaciador que se adapta a 22,2 mm |
+| Botones | Encendido en la unidad, arriba/abajo, cambio de modo | Encendido en la unidad más un mando remoto de manillar |
+| Remoto | No incluido | Incluido, soporte de 22,2 mm, cable de 24 cm |
+| Motores bus CAN | No compatible | Se requiere la versión CAN |
+| Conectividad | Bluetooth Low Energy | Bluetooth Low Energy |
+| Protección | Clasificación IP65 | Clasificación IP65 |
+
+Una nota práctica sobre el montaje: el tornillo de fijación de la pantalla a color debe apretarse a aproximadamente 0,8 newton-metros. Apretar en exceso es un error común del primer día y no está cubierto por la garantía.
+
+## Configurar los controles Egg en una bicicleta nueva, paso a paso
+
+Una vez que la bicicleta está en el soporte de trabajo, sigue esta secuencia en orden. Saltarse pasos es la forma más rápida de acabar persiguiendo errores fantasma.
+
+| Paso | Acción | Cómo se ve lo "correcto" |
+|---|---|---|
+| 1 | Montar la pantalla en una sección despejada del manillar | Firme, ligeramente giratoria, nada que obstruya la pantalla |
+| 2 | Conectar solo tipos de conector que coincidan | Los enchufes encajan suavemente usando la guía — nunca forzados ni torcidos |
+| 3 | Comprobar la detección de protocolo en el primer encendido | La velocidad marca 00 (o 00.0); sin ERROR COMM, sin --.-, sin FF |
+| 4 | Emparejar a través de la aplicación, no del menú Bluetooth del teléfono | El dispositivo aparece en la lista de búsqueda y se conecta |
+| 5 | Activar con el nombre de la tienda y el ID del pedido | Activación instantánea; los datos incorrectos causan retrasos |
+| 6 | Configurar la circunferencia de la rueda en milímetros | La velocidad coincide con una referencia GPS |
+| 7 | Introducir el voltaje de la batería al 0 % y al 100 %, más la capacidad en Ah | El porcentaje de batería sigue la realidad en lugar de saltar |
+| 8 | Actualizar el firmware a la última versión estable | Todas las funciones y diseños actuales disponibles |
+| 9 | Apagar usando el propio botón de la pantalla | Los ajustes y los datos de trayecto se guardan de forma permanente |
+
+El paso 3 es el que separa un montaje fluido de una tarde frustrante. Si la velocidad nunca muestra un cero limpio, detente y corrige el protocolo antes de tocar cualquier otra cosa. Una vez que encuentres el protocolo que funciona, no lo toques — cambiarlo después mientras copias ajustes de un post de un foro es una forma clásica de romper una bicicleta que funcionaba.
+
+El paso 7 merece la misma atención. El porcentaje de batería es tan preciso como los puntos de voltaje y la capacidad que le introduces. Un paquete de 48 V, por ejemplo, se sitúa cerca de 54,6 V con la carga completa, no a 48 V. Introduce la cifra real de carga completa y una capacidad ligeramente por debajo del número comercial, ya que los paquetes pierden capacidad con el tiempo.
+
+Para descargas oficiales de firmware y la lista de compatibilidad actual, consulta el [sitio web oficial de EggRider](https://www.eggrider.com/) antes de empezar.
+
+## Ajusta los perfiles Road y OffRoad
+
+Aquí es donde una nueva bicicleta para controles Egg empieza a sentirse realmente personalizada. La aplicación guarda conjuntos de configuración completos — preferencias de pantalla más parámetros del controlador — como perfiles que puedes nombrar, aplicar y compartir con un código.
+
+Unos pocos ajustes concentran la mayor parte de la diferencia en el mundo real:
+
+| Ajuste | Qué cambia | Punto de partida sensato |
+|---|---|---|
+| Niveles de asistencia | Número de escalones entre 0 y potencia máxima | 5 niveles para desplazamientos, 9 para terrenos variados |
+| Corriente limitada (%) | Porcentaje del límite global de corriente por nivel | 30–50 % en los niveles bajos para proteger la transmisión |
+| Velocidad limitada (%) | Porcentaje de la velocidad máxima por nivel | Mantén el nivel 0 con corriente y velocidad a cero |
+| Corriente de arranque (%) | Pico inicial de corriente desde parado | Valores bajos — los valores altos castigan el controlador y la cadena |
+| Voltaje de inicio del acelerador | Dónde empieza a responder el motor | Valores de rango medio para un acople suave |
+| Modo del acelerador | Respuesta basada en velocidad o en corriente | El modo de corriente se siente notablemente más suave |
+
+Recuerda la matemática básica de la potencia: voltaje de la batería multiplicado por el límite de corriente es igual a vatios. Un sistema de 48 V que consume 20 A está pidiendo 960 W, lo cual supera con creces lo que muchos controladores y transmisiones de serie están diseñados para soportar de forma continua.
+
+En algunos controladores Bafang, el límite global de corriente y el corte de baja tensión solo se leen al reiniciar el sistema por completo. Eso significa que cambiar de Road a OffRoad a mitad de trayecto no actualizará esos dos valores. La solución es mantener el límite global de corriente idéntico en ambos perfiles y variar en su lugar los porcentajes de corriente y velocidad por nivel.
+
+## Solución de problemas en un montaje nuevo
+
+| Síntoma | Causa probable | Solución |
+|---|---|---|
+| La velocidad muestra --.- o ERROR COMM | Protocolo no configurado correctamente | Vuelve a ejecutar la detección de protocolo y fija la opción que funcione |
+| La velocidad está desviada de forma constante unos pocos puntos porcentuales | Valor de circunferencia de la rueda | Mide la llanta más el neumático e introduce milímetros |
+| La batería pasa de llena a vacía demasiado rápido | Puntos de voltaje o capacidad incorrectos | Vuelve a introducir los voltajes al 0 % y al 100 % y la capacidad en Ah |
+| Los ajustes se revierten después de un trayecto | La pantalla no se apagó con su botón | Apaga siempre desde la pantalla, no desde la batería |
+| Mensaje "No Lishui Settings" o "No ASI Settings" | Los ajustes del controlador nunca se configuraron | Abre la página del controlador y escribe los ajustes una vez |
+| La estimación de autonomía difiere entre la pantalla y la aplicación | Dos algoritmos de estimación distintos | Es esperable — la aplicación es dinámica, la pantalla promedia todo el trayecto |
+| El controlador rechaza los cambios o se apaga | Firmware de fábrica restringido | La pantalla sigue funcionando como lector; la configuración completa puede que no |
+
+Si una escritura de ajustes falla repetidamente, deja de insistir. Algunos controladores limitan cuántas veces se pueden cambiar los parámetros, y las escrituras fallidas repetidas pueden dejarte en un estado de error que requiere reiniciar el controlador o reinstalar el firmware.
+
+## Preguntas frecuentes
+
+**¿Necesito comprar una marca específica de bicicleta para usar los controles Egg?**
+No se requiere ninguna marca en particular, pero sí necesitas un controlador compatible. Confirma la marca del controlador, el tipo de conector y el protocolo antes de comprar — la marca del motor por sí sola te dice muy poco.
+
+**¿Puedo trasladar mi pantalla a una nueva bicicleta para controles Egg más adelante?**
+Normalmente sí, siempre que la nueva bicicleta use un controlador compatible y un conector que coincida. Tendrás que rehacer la detección de protocolo, el tamaño de rueda y los ajustes de batería, y reactivar la pantalla si está emparejada con otra cuenta.
+
+**¿La pantalla necesita mi teléfono conectado mientras voy en bicicleta?**
+No. La pantalla funciona de forma autónoma y registra los datos de trayecto por sí sola. La aplicación es para configuración, actualizaciones de firmware y análisis más profundo de los trayectos.
+
+**¿Por qué mi nueva bicicleta para controles Egg muestra una velocidad o autonomía incorrectas?**
+Casi siempre es un problema de configuración — la circunferencia de la rueda para la velocidad, los puntos de voltaje y la capacidad para el porcentaje de batería y la autonomía. Corrige esos dos y la mayoría de las quejas sobre las lecturas desaparecen.

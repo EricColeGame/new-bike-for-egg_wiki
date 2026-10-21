@@ -1,0 +1,128 @@
+export const metadata = {
+  title: "Bike Nova para Controles Egg: Como Escolher e Configurar uma E-Bike Compatível com EggRider",
+  description: "Procurando uma bike nova para controles Egg? Entenda como funcionam a compatibilidade com EggRider, os protocolos de controlador e a configuração do display antes de comprar.",
+  category: "controls",
+  date: "2026-10-21",
+}
+
+## Por Que uma Bike Nova para Controles Egg Começa pelo Controlador
+
+A maioria dos compradores compara motores, baterias e geometria do quadro. Se você está planejando uma bike nova para controles Egg, a peça que realmente decide se sua configuração vai funcionar é o controlador parafusado ao quadro — ou lacrado dentro da carcaça do motor. O EggRider é um sistema de display e aplicativo que permite personalizar o comportamento da assistência, alternar entre os perfis Road e OffRoad e extrair estatísticas detalhadas de pedalada. Ele só libera esse controle quando a bike por baixo fala a língua certa.
+
+É por isso que uma bike nova para controles Egg deve ser escolhida de trás para frente: primeiro decida qual experiência de display e aplicativo você quer, depois confirme se o controlador, o conector e a voltagem da bike suportam isso.
+
+Duas camadas decidem tudo:
+
+- **Hardware** — voltagem, tipo de conector e pinagem.
+- **Software** — o protocolo de comunicação que o controlador usa.
+
+Erre em qualquer uma delas e o display pode até ligar, mas não mostrar velocidade, exibir um erro de comunicação ou simplesmente se recusar a salvar as configurações.
+
+| Fator de compatibilidade | O que verificar | Por que importa |
+|---|---|---|
+| Marca do controlador | Bafang, Lishui, Kunteng, ASI ou Grin | Determina quais páginas de configurações são liberadas no app |
+| Protocolo | UART vs. CAN bus | Motores centrais com CAN precisam do display colorido compatível com CAN; o display compacto não é compatível |
+| Conector | Higo/Julet à prova d'água de 5 pinos ou KM de 5 pinos com rosca | Plugues incompatíveis podem danificar a unidade e anular a garantia |
+| Voltagem | 52V nominais recomendados, 60V como limite absoluto | Conectar acima de 60V com a bateria totalmente carregada danifica o display permanentemente |
+| Guidão | Trecho reto de 22,2 mm (compacto); 31,8 mm ou 22,2 mm (colorido) | O suporte precisa encaixar fisicamente antes de qualquer outra coisa |
+
+## Combine o Motor e o Controlador Antes de Comprar
+
+Em bikes com motor no cubo, o controlador geralmente fica em uma pequena caixa de alumínio no quadro, dentro do suporte da bateria ou integrado ao próprio quadro. Siga o cabo do display e você vai encontrá-lo. Motores no cubo costumam usar controladores Lishui ou Kunteng — e esses vêm com muito mais variedade de conectores do que o arrumadinho plugue à prova d'água de 5 pinos que as pessoas esperam.
+
+Sistemas com motor central são diferentes. Os motores centrais Bafang têm o controlador embutido na carcaça do motor, e a etiqueta da carcaça indica a qual família ele pertence. Essas unidades se dividem em versões UART e CAN bus, e as duas se comportam de forma bem diferente com os controles Egg.
+
+| Família de controlador | Onde encontrá-la | O que esperar |
+|---|---|---|
+| Bafang UART motor central | BBS01, BBS02, BBSHD, M600, Ultra | Páginas completas de configurações básicas, de pedalada, de acelerador e de torque |
+| Bafang CAN bus | M215, M315, M500, M510, M600, M620, M820 | Limites de velocidade e estratégias de simulação; alguns firmwares restringem alterações |
+| Lishui (LSW) | Muitas bikes urbanas e de carga com motor no cubo | Tipo de PAS, limite de corrente, limite de velocidade, estratégia de funcionamento |
+| Kunteng (KT) | Montagens econômicas com motor no cubo | Contagem de ímãs, modo de assistência, modo de acelerador, percentuais de limite de corrente |
+| ASI / Grin | Montagens premium, motores CYC, Rad Power série 6 | Limites de potência do acelerador e do PAS, corrente de fase, taxa de regeneração |
+
+Um alerta que vale repetir: conectores idênticos não garantem compatibilidade. Relatos da comunidade estão cheios de ciclistas que encaixaram os plugues perfeitamente e ainda assim ficaram com a leitura de velocidade em branco porque o protocolo estava errado. Confirme o controlador, não apenas o cabo.
+
+## EggRider V2 vs. C1: Escolha o Display para a Sua Montagem
+
+Os dois displays rodam o mesmo aplicativo móvel e compartilham a mesma arquitetura de configurações, então a decisão geralmente se resume a tamanho de tela, montagem e suporte a CAN.
+
+| Recurso | EggRider V2 | EggRider C1 |
+|---|---|---|
+| Tela | Compacta, opções de layout v1/v2/v3 | Tela colorida maior, visual único com rolagem |
+| Encaixe no guidão | Trecho reto de 22,2 mm | 31,8 mm com um espaçador que adapta para 22,2 mm |
+| Botões | Botão de energia na unidade, cima/baixo, troca de modo | Botão de energia na unidade mais um controle remoto de guidão |
+| Controle remoto | Não incluído | Incluído, suporte de 22,2 mm, cabo de 24 cm |
+| Motores CAN bus | Não compatível | Versão CAN necessária |
+| Conectividade | Bluetooth Low Energy | Bluetooth Low Energy |
+| Proteção | Certificação IP65 | Certificação IP65 |
+
+Uma observação prática sobre a montagem: o parafuso de fixação do display colorido deve ser apertado a aproximadamente 0,8 newton-metro. Apertar demais é um erro comum no primeiro dia e não é coberto pela garantia.
+
+## Configurando os Controles Egg em uma Bike Nova, Passo a Passo
+
+Com a bike no cavalete, siga esta sequência em ordem. Pular etapas é o caminho mais rápido para ficar caçando erros fantasma.
+
+| Etapa | Ação | Como é o "certo" |
+|---|---|---|
+| 1 | Monte o display em um trecho livre do guidão | Firme, levemente rotacionável, nada obstruindo a tela |
+| 2 | Conecte apenas tipos de conector correspondentes | Os plugues encaixam suavemente usando a guia — nunca forçados ou torcidos |
+| 3 | Verifique a detecção de protocolo na primeira energização | A velocidade mostra 00 (ou 00.0); sem ERROR COMM, sem --.-, sem FF |
+| 4 | Faça o pareamento pelo app, não pelo menu Bluetooth do celular | O dispositivo aparece na lista de busca e conecta |
+| 5 | Ative com o nome da loja e o ID do pedido | Ativação instantânea; dados errados causam atrasos |
+| 6 | Defina a circunferência da roda em milímetros | A velocidade confere com uma referência de GPS |
+| 7 | Informe a voltagem da bateria em 0% e 100%, além da capacidade em Ah | A porcentagem da bateria acompanha a realidade em vez de dar saltos |
+| 8 | Atualize o firmware para a versão estável mais recente | Todos os recursos e layouts atuais disponíveis |
+| 9 | Desligue usando o botão do próprio display | As configurações e os dados de viagem são salvos permanentemente |
+
+A etapa 3 é a que separa uma montagem tranquila de uma tarde frustrante. Se a velocidade nunca mostrar um zero limpo, pare e corrija o protocolo antes de mexer em qualquer outra coisa. Depois de encontrar o protocolo que funciona, não mexa mais nele — alterá-lo depois, enquanto copia configurações de um post de fórum, é uma forma clássica de quebrar uma bike que estava funcionando.
+
+A etapa 7 merece a mesma atenção. A porcentagem da bateria é tão precisa quanto os pontos de voltagem e a capacidade que você informa. Um pack de 48V, por exemplo, fica perto de 54,6V com carga total, e não em 48V. Informe o valor real de carga total e uma capacidade um pouco abaixo do número de marketing, já que os packs perdem capacidade com o tempo.
+
+Para downloads oficiais de firmware e a lista de compatibilidade atual, consulte o [site oficial do EggRider](https://www.eggrider.com/) antes de começar.
+
+## Ajuste Fino dos Perfis Road e OffRoad
+
+É aqui que uma bike nova para controles Egg começa a parecer realmente personalizada. O app armazena conjuntos completos de configuração — preferências de display mais parâmetros do controlador — como perfis que você pode nomear, aplicar e compartilhar com um código.
+
+Algumas configurações concentram a maior parte da diferença no mundo real:
+
+| Configuração | O que ela muda | Ponto de partida sensato |
+|---|---|---|
+| Níveis de assistência | Número de passos entre 0 e a potência total | 5 níveis para deslocamentos urbanos, 9 para terrenos variados |
+| Corrente limitada (%) | Porcentagem do limite global de corrente por nível | 30–50% nos níveis baixos para proteger o conjunto de transmissão |
+| Velocidade limitada (%) | Porcentagem da velocidade máxima por nível | Mantenha o nível 0 com corrente zero e velocidade zero |
+| Corrente de partida (%) | Pico inicial de corrente saindo da imobilidade | Valores baixos — valores altos forçam o controlador e a corrente |
+| Voltagem de início do acelerador | Onde o motor começa a responder | Valores intermediários para um acionamento suave |
+| Modo do acelerador | Resposta baseada em velocidade ou em corrente | O modo de corrente parece visivelmente mais suave |
+
+Lembre-se da matemática básica de potência: voltagem da bateria multiplicada pelo limite de corrente é igual a watts. Um sistema de 48V puxando 20A está pedindo 960W, o que está bem além do que muitos controladores e conjuntos de transmissão de série foram projetados para suportar continuamente.
+
+Em alguns controladores Bafang, o limite global de corrente e o corte de baixa tensão só são lidos em uma reinicialização completa do sistema. Isso significa que alternar de Road para OffRoad no meio do pedal não atualiza esses dois valores. A solução é manter o limite global de corrente idêntico nos dois perfis e variar, em vez disso, os percentuais de corrente e velocidade por nível.
+
+## Solução de Problemas em uma Montagem Nova
+
+| Sintoma | Causa provável | Solução |
+|---|---|---|
+| A velocidade mostra --.- ou ERROR COMM | Protocolo não configurado corretamente | Execute novamente a detecção de protocolo e fixe a opção que funciona |
+| A velocidade está sempre alguns por cento errada | Valor da circunferência da roda | Meça aro mais pneu e informe em milímetros |
+| A bateria cai de cheia para vazia rápido demais | Pontos de voltagem ou capacidade errados | Informe novamente as voltagens de 0% e 100% e a capacidade em Ah |
+| As configurações voltam ao padrão depois de um pedal | O display não foi desligado pelo próprio botão | Sempre desligue pelo display, não pela bateria |
+| Mensagem "No Lishui Settings" ou "No ASI Settings" | As configurações do controlador nunca foram definidas | Abra a página do controlador e grave as configurações uma vez |
+| A estimativa de autonomia difere entre o display e o app | Dois algoritmos de estimativa diferentes | Esperado — o app é dinâmico, o display faz a média de todo o pedal |
+| O controlador rejeita alterações ou desliga | Firmware de fábrica restrito | O display ainda funciona como painel de leitura; a configuração completa pode não funcionar |
+
+Se a gravação de configurações falhar repetidamente, pare de insistir. Alguns controladores limitam quantas vezes os parâmetros podem ser alterados, e gravações que falham repetidamente podem deixar você em um estado de erro que exige reiniciar o controlador ou reinstalar o firmware.
+
+## Perguntas Frequentes (FAQ)
+
+**Preciso comprar uma marca específica de bike para usar os controles Egg?**
+Nenhuma marca específica é obrigatória, mas você precisa de um controlador compatível. Confirme a marca do controlador, o tipo de conector e o protocolo antes de comprar — a marca do motor, sozinha, diz muito pouco.
+
+**Posso transferir meu display para uma bike nova para controles Egg depois?**
+Normalmente sim, desde que a bike nova use um controlador compatível e um conector correspondente. Você precisará refazer a detecção de protocolo, o tamanho da roda e as configurações de bateria, além de reativar o display se ele estiver pareado com outra conta.
+
+**O display precisa do meu celular conectado durante o pedal?**
+Não. O display funciona de forma autônoma e registra os dados de viagem sozinho. O app serve para configuração, atualizações de firmware e análises mais detalhadas dos pedais.
+
+**Por que minha bike nova para controles Egg mostra a velocidade ou a autonomia errada?**
+Quase sempre é uma questão de configuração — circunferência da roda para a velocidade, pontos de voltagem e capacidade para a porcentagem da bateria e a autonomia. Corrija esses dois pontos e a maioria das reclamações sobre leituras desaparece.

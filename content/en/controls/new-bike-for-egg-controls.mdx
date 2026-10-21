@@ -1,0 +1,128 @@
+export const metadata = {
+  title: "New Bike for Egg Controls: How to Choose and Set Up an EggRider-Ready E-Bike",
+  description: "Shopping for a new bike for egg controls? Learn how EggRider compatibility, controller protocols, and display setup work before you buy.",
+  category: "controls",
+  date: "2026-10-21",
+}
+
+## Why a New Bike for Egg Controls Starts at the Controller
+
+Most shoppers compare motors, batteries, and frame geometry. If you are planning a new bike for egg controls, the part that actually decides whether your setup works is the controller bolted to the frame — or sealed inside the motor casing. EggRider is a display-and-app system that lets you personalize assist behavior, flip between Road and OffRoad profiles, and pull detailed ride statistics. It only unlocks that control when the bike underneath it speaks the right language.
+
+That is why a new bike for egg controls should be chosen backward: decide on the display and app experience you want first, then confirm the bike's controller, connector, and voltage can support it.
+
+Two layers decide everything:
+
+- **Hardware** — voltage, connector type, and pinout.
+- **Software** — the communication protocol the controller uses.
+
+Get either one wrong and the display may power on but show no speed, throw a communication error, or quietly refuse to save settings.
+
+| Compatibility Factor | What to Verify | Why It Matters |
+|---|---|---|
+| Controller brand | Bafang, Lishui, Kunteng, ASI, or Grin | Determines which settings pages unlock in the app |
+| Protocol | UART vs. CAN bus | CAN-based mid-drives need the CAN-capable color display; the compact display is not compatible |
+| Connector | Higo/Julet waterproof 5-pin or KM 5-pin screw | Mismatched plugs can damage the unit and void the warranty |
+| Voltage | 52V nominal recommended, 60V hard ceiling | Connecting above 60V when fully charged permanently damages the display |
+| Handlebar | 22.2 mm straight section (compact); 31.8 mm or 22.2 mm (color) | The mount must physically fit before anything else |
+
+## Match the Motor and Controller Before You Buy
+
+On hub-drive bikes, the controller usually lives in a small aluminum box on the frame, inside the battery mount, or integrated into the frame itself. Follow the display cable and you will find it. Hub motors most often use Lishui or Kunteng controllers — and those come with far more connector variety than the tidy 5-pin waterproof plug people expect.
+
+Mid-drive systems are different. Bafang mid-drives have the controller built into the motor housing, and the case label tells you which family you have. Those units split into UART and CAN bus versions, and the two behave very differently with egg controls.
+
+| Controller Family | Where You Find It | What to Expect |
+|---|---|---|
+| Bafang UART mid-drive | BBS01, BBS02, BBSHD, M600, Ultra | Full basic, pedal, throttle, and torque settings pages |
+| Bafang CAN bus | M215, M315, M500, M510, M600, M620, M820 | Speed limits and simulation strategies; some firmware restricts changes |
+| Lishui (LSW) | Many hub-drive commuter and cargo bikes | PAS type, current limit, speed limit, running strategy |
+| Kunteng (KT) | Budget hub-drive builds | Magnet count, assist mode, throttle mode, current limit percentages |
+| ASI / Grin | Premium builds, CYC motors, Rad Power 6-series | Throttle and PAS power caps, phase current, regen ratio |
+
+One warning worth repeating: identical connectors do not guarantee compatibility. Community reports are full of riders who matched plugs perfectly and still got a blank speed readout because the protocol was wrong. Confirm the controller, not just the cable.
+
+## EggRider V2 vs. C1: Pick the Display for Your Build
+
+Both displays run the same mobile app and share the same settings architecture, so the decision usually comes down to screen size, mounting, and CAN support.
+
+| Feature | EggRider V2 | EggRider C1 |
+|---|---|---|
+| Screen | Compact, layout options v1/v2/v3 | Larger color screen, single scrolling view |
+| Handlebar fit | 22.2 mm straight section | 31.8 mm with a spacer that adapts to 22.2 mm |
+| Buttons | On-unit power, up/down, mode switch | On-unit power plus a handlebar remote |
+| Remote | Not included | Included, 22.2 mm bracket, 24 cm cable |
+| CAN bus motors | Not compatible | CAN version required |
+| Connectivity | Bluetooth Low Energy | Bluetooth Low Energy |
+| Protection | IP65 rated | IP65 rated |
+
+A practical note on mounting: the color display's set screw should be tightened to roughly 0.8 newton-meters. Over-torquing is a common first-day mistake and is not covered by warranty.
+
+## Setting Up Egg Controls on a New Bike, Step by Step
+
+Once the bike is on your stand, work through this sequence in order. Skipping steps is the fastest way to end up chasing phantom errors.
+
+| Step | Action | What "Good" Looks Like |
+|---|---|---|
+| 1 | Mount the display on a clear section of handlebar | Secure, slightly rotatable, nothing obstructing the screen |
+| 2 | Connect only matching connector types | Plugs seat gently using the guide — never forced or twisted |
+| 3 | Check protocol detection on first power-up | Speed reads 00 (or 00.0); no ERROR COMM, no --.-, no FF |
+| 4 | Pair through the app, not the phone's Bluetooth menu | Device appears in the search list and connects |
+| 5 | Activate with shop name and order ID | Instant activation; wrong details cause delays |
+| 6 | Set wheel circumference in millimeters | Speed matches a GPS reference |
+| 7 | Enter battery voltage at 0% and 100%, plus capacity in Ah | Battery percentage tracks reality instead of jumping |
+| 8 | Update firmware to the latest stable release | All current features and layouts available |
+| 9 | Power off using the display's own button | Settings and trip data save permanently |
+
+Step 3 is the one that separates a smooth build from a frustrating afternoon. If speed never shows a clean zero, stop and fix the protocol before touching anything else. Once you find the working protocol, leave it alone — changing it later while copying settings from a forum post is a classic way to break a working bike.
+
+Step 7 deserves equal attention. Battery percentage is only as accurate as the voltage endpoints and capacity you feed it. A 48V pack, for example, rests near 54.6V at full charge, not 48V. Enter the real full-charge figure and a capacity slightly below the marketing number, since packs lose capacity over time.
+
+For official firmware downloads and the current compatibility list, check the [EggRider official website](https://www.eggrider.com/) before you start.
+
+## Dial In Road and OffRoad Profiles
+
+This is where a new bike for egg controls starts to feel genuinely custom. The app stores complete configuration sets — display preferences plus controller parameters — as profiles you can name, apply, and share with a code.
+
+A few settings carry most of the real-world difference:
+
+| Setting | What It Changes | Sensible Starting Point |
+|---|---|---|
+| Assist levels | Number of steps between 0 and full power | 5 levels for commuting, 9 for varied terrain |
+| Limited current (%) | Percentage of the global current cap per level | 30–50% on low levels to protect the drivetrain |
+| Limited speed (%) | Percentage of the max speed per level | Keep level 0 at zero current and zero speed |
+| Start current (%) | Initial current surge from a standstill | Low values — high values strain controller and chain |
+| Throttle start voltage | Where the motor begins responding | Mid-range values for smooth engagement |
+| Throttle mode | Speed-based or current-based response | Current mode feels noticeably smoother |
+
+Remember the basic power math: battery voltage multiplied by current limit equals watts. A 48V system pulling 20A is asking for 960W, which is well beyond what many stock controllers and drivetrains are built to handle continuously.
+
+On some Bafang controllers, the global current limit and low-voltage cutoff are only read at a full system restart. That means switching Road to OffRoad mid-ride will not update those two values. The workaround is to keep the global current limit identical in both profiles and vary the per-level current and speed percentages instead.
+
+## Troubleshooting a Fresh Build
+
+| Symptom | Likely Cause | Fix |
+|---|---|---|
+| Speed shows --.- or ERROR COMM | Protocol not configured correctly | Re-run protocol detection and lock in the working option |
+| Speed is consistently off by a few percent | Wheel circumference value | Measure rim plus tire and enter millimeters |
+| Battery drops from full to empty too fast | Voltage endpoints or capacity wrong | Re-enter 0% and 100% voltages and Ah capacity |
+| Settings revert after a ride | Display was not powered off from its button | Always shut down from the display, not the battery |
+| "No Lishui Settings" or "No ASI Settings" message | Controller settings never configured | Open the controller page and write settings once |
+| Range estimate differs between display and app | Two different estimation algorithms | Expected — the app is dynamic, the display averages the whole ride |
+| Controller rejects changes or shuts down | Restricted factory firmware | The display still works as a readout; full configuration may not |
+
+If a settings write fails repeatedly, stop hammering it. Some controllers limit how many times parameters can be changed, and repeated failed writes can leave you with an error state that needs a controller restart or firmware reinstall.
+
+## FAQ
+
+**Do I need to buy a specific brand of bike to use egg controls?**
+No single brand is required, but you do need a compatible controller. Confirm the controller brand, connector type, and protocol before purchase — the motor brand alone tells you very little.
+
+**Can I move my display to a new bike for egg controls later?**
+Usually yes, provided the new bike uses a supported controller and matching connector. You will need to redo protocol detection, wheel size, and battery settings, and reactivate the display if it is paired to a different account.
+
+**Does the display need my phone connected while riding?**
+No. The display works standalone and records trip data on its own. The app is for configuration, firmware updates, and deeper ride analysis.
+
+**Why does my new bike for egg controls show the wrong speed or range?**
+Nearly always a configuration issue — wheel circumference for speed, voltage endpoints and capacity for battery percentage and range. Fix those two and most readout complaints disappear.

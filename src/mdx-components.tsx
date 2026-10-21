@@ -1,14 +1,10 @@
 import Link from "next/link";
 import type { MDXComponents } from "mdx/types";
+import { toHeadingId } from "@/lib/heading-id";
 
-function toHeadingId(children: React.ReactNode): string {
+function headingIdFromChildren(children: React.ReactNode): string {
   const text = String(children).replace(/<[^>]*>/g, "").trim();
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "");
+  return toHeadingId(text);
 }
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
@@ -20,7 +16,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
 
 const defaultComponents: MDXComponents = {
   h2: ({ children, id }) => {
-    const headingId = id || toHeadingId(children);
+    const headingId = id || headingIdFromChildren(children);
     return (
       <h2 id={headingId} className="mt-10 scroll-m-20 border-b border-border pb-3 text-2xl font-bold tracking-tight text-foreground first:mt-0">
         {children}
@@ -28,7 +24,7 @@ const defaultComponents: MDXComponents = {
     );
   },
   h3: ({ children, id }) => {
-    const headingId = id || toHeadingId(children);
+    const headingId = id || headingIdFromChildren(children);
     return <h3 id={headingId} className="mt-8 text-xl font-semibold text-foreground">{children}</h3>;
   },
   p: ({ children }) => <p className="my-5 leading-8 text-muted-foreground">{children}</p>,

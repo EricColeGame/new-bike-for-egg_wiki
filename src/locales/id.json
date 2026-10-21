@@ -1,1 +1,547 @@
-{}
+{
+  "site": {
+    "name": "Bike For Egg Wiki",
+    "shortName": "Bike For Egg",
+    "tagline": "Panduan Egg, Sepeda, Hewan Peliharaan & Uang",
+    "description": "Panduan penggemar lengkap untuk Bike For Egg di Roblox, dengan kode, peringkat sepeda, panduan telur dan hewan peliharaan, peningkatan kecepatan, tips menghasilkan uang, dan strategi pemula.",
+    "legalNotice": "Wiki penggemar tidak resmi. Tidak berafiliasi dengan Huron Games atau Roblox."
+  },
+  "nav": {
+    "home": "Beranda",
+    "menu": "Menu",
+    "toggleTheme": "Ganti tema",
+    "guide": "Panduan",
+    "mechanics": "Mekanika",
+    "items": "Item",
+    "updates": "Pembaruan",
+    "community": "Komunitas",
+    "controls": "Kontrol",
+    "codes": "Kode"
+  },
+  "guide": {
+    "overviewTitle": "Panduan New Bike for Egg: Mulai dengan Kuat",
+    "overviewDescription": "Pelajari cara bermain New Bike for Egg, buka sepeda dan telur pertama Anda, temukan telur langka, dan ikuti progres sepeda tercepat."
+  },
+  "mechanics": {
+    "overviewTitle": "Mekanisme New Bike for Egg Dijelaskan",
+    "overviewDescription": "Pahami kecepatan sepeda, pengumpulan telur, kelangkaan telur, pencurian telur, balap, dan sistem penetasan di New Bike for Egg."
+  },
+  "items": {
+    "overviewTitle": "Item New Bike for Egg: Telur, Hewan Peliharaan & Sepeda",
+    "overviewDescription": "Bandingkan telur langka, mitis, dan rahasia, temukan sepeda terbaik, dan bangun koleksi hewan peliharaan yang lebih kuat di New Bike for Egg."
+  },
+  "updates": {
+    "overviewTitle": "Pembaruan & Event New Bike for Egg",
+    "overviewDescription": "Lacak pembaruan baru, event musiman, sepeda baru, dan perubahan fitur di sepanjang roadmap New Bike for Egg."
+  },
+  "community": {
+    "overviewTitle": "Komunitas & Sumber Daya New Bike for Egg",
+    "overviewDescription": "Temukan diskusi New Bike for Egg di Reddit, komunitas Discord, video gameplay, dan strategi dari para pemain."
+  },
+  "controls": {
+    "overviewTitle": "Kontrol & Tips Berkendara New Bike for Egg",
+    "overviewDescription": "Kuasai kontrol keyboard, seluler, dan controller New Bike for Egg, lalu tingkatkan pergerakan sepeda dan rute berkendara."
+  },
+  "codes": {
+    "overviewTitle": "Kode New Bike for Egg",
+    "overviewDescription": "Temukan kode aktif New Bike for Egg, pelajari cara menukarkannya, dan klaim hadiah gratis untuk perjalanan berikutnya."
+  },
+  "home": {
+    "meta": {
+      "title": "Wiki New Bike for Egg - Kode, Sepeda & Hewan Peliharaan",
+      "description": "Jelajahi panduan New Bike for Egg tentang kode, tingkatan kecepatan sepeda, kelangkaan telur, pendapatan hewan peliharaan, kontrol, pembaruan, dan progres pemula di Roblox."
+    },
+    "hero": {
+      "eyebrow": "Tycoon Sepeda Pengumpul Telur Roblox",
+      "title": "New Bike for Egg Wiki",
+      "description": "Kuasai New Bike for Egg dengan panduan praktis tentang pengganda kecepatan sepeda, kelangkaan telur, pendapatan hewan peliharaan, kode, kontrol, dan progres awal yang cepat.",
+      "stats": [
+        "2,8 juta+ Total Kunjungan",
+        "Tersedia 8 Sepeda",
+        "CCU Puncak 59,5K",
+        "Rilis 15 September 2026"
+      ],
+      "primaryCta": "Mainkan di Roblox",
+      "secondaryCta": "Panduan Pemula",
+      "tertiaryCta": "Kode & Hadiah",
+      "videoLabel": "Gameplay New Bike for Egg"
+    },
+    "updates": {
+      "title": "Pembaruan Terbaru New Bike for Egg",
+      "browse": "Telusuri Semua Panduan",
+      "viewAll": "Lihat Semua"
+    },
+    "start": {
+      "eyebrow": "Mulai di Sini",
+      "title": "Perjalanan New Bike for Egg Anda",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Panduan Pemula",
+          "description": "Pelajari inti siklusnya: klaim Sepeda Standar gratis, jalankan rute telur, tetaskan hewan peliharaan, dan tempatkan mereka untuk penghasilan pasif."
+        },
+        {
+          "number": "2",
+          "title": "Peningkatan Sepeda Tercepat",
+          "description": "Ikuti progresi sepeda dari Football Bike seharga 200 Money hingga Frost, Righteous, Korblox, dan Frozen Flame."
+        },
+        {
+          "number": "3",
+          "title": "Peternakan Telur Terbaik",
+          "description": "Bangun rute dua zona yang ketat, simpan telur secara berkelompok, dan targetkan kumpulan dengan kelangkaan lebih tinggi sebelum berbelanja."
+        },
+        {
+          "number": "4",
+          "title": "Kode Aktif",
+          "description": "Periksa langkah penukaran dan status kode saat ini sebelum grinding untuk sepeda berikutnya."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Halaman Populer",
+      "title": "Panduan New Bike for Egg yang Trending",
+      "quickLinks": [
+        "Panduan Pemula",
+        "Tingkat Kecepatan Sepeda",
+        "Kelangkaan Telur",
+        "Semua Kode"
+      ],
+      "cards": [
+        {
+          "badge": "Mulai",
+          "title": "Panduan Pemula New Bike for Egg",
+          "description": "Klaim sepeda gratis, pelajari Zona Aman, dan bangun lingkaran telur-ke-hewan peliharaan yang berulang.",
+          "href": "/guide/new-bike-for-egg-beginner-guide"
+        },
+        {
+          "badge": "Kode",
+          "title": "Kode New Bike for Egg",
+          "description": "Lihat status kode saat ini, langkah penukaran, dan rute Uang gratis tercepat.",
+          "href": "/codes/new-bike-for-egg-codes"
+        },
+        {
+          "badge": "Sepeda",
+          "title": "Setiap Sepeda Diurutkan Berdasarkan Kecepatan",
+          "description": "Bandingkan kedelapan sepeda berdasarkan Pengganda kecepatan, harga Uang, dan biaya Robux.",
+          "href": "/community/new-bike-for-egg-reddit"
+        },
+        {
+          "badge": "telur",
+          "title": "Kelangkaan Telur dan Peluang Penetasan",
+          "description": "Pahami hal-hal umum melalui telur legendaris dan kapan harus menetas secara berkelompok.",
+          "href": "/mechanics/new-bike-for-egg-egg-rarity"
+        },
+        {
+          "badge": "Hewan peliharaan",
+          "title": "Hewan Peliharaan dan Penghasilan Pasif",
+          "description": "Pelajari bagaimana hewan peliharaan yang ditempatkan menghasilkan Uang dan kapan menggunakan Fuse Lab.",
+          "href": "/items/new-bike-for-egg-pets"
+        },
+        {
+          "badge": "Kontrol",
+          "title": "Pengaturan Kontrol Seluler",
+          "description": "Sesuaikan kemudi, throttle, pengereman, kecepatan kamera, dan ukuran tombol sentuh.",
+          "href": "/controls/new-bike-for-egg-mobile-controls"
+        },
+        {
+          "badge": "Pembaruan",
+          "title": "Sepeda Baru Terbaru",
+          "description": "Tinjau sepeda terbaru dan peningkatan kecepatan yang penting untuk farming telur.",
+          "href": "/updates/new-bike-for-egg-new-bikes"
+        },
+        {
+          "badge": "Komunitas",
+          "title": "Panduan Perdagangan Discord",
+          "description": "Siapkan perdagangan telur, verifikasi penawaran, dan hindari pola penipuan umum.",
+          "href": "/community/new-bike-for-egg-discord"
+        },
+        {
+          "badge": "Rahasia",
+          "title": "Panduan Telur Rahasia",
+          "description": "Temukan spawn telur rahasia, atur waktu rute, dan capai zona sebelum lawan.",
+          "href": "/guide/new-bike-for-egg-secret-egg-guide"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Apa itu New Bike for Egg?",
+      "paragraphs": [
+        "New Bike for Egg adalah game taipan Roblox yang dapat dimainkan gratis dari Huron Games. Anda keluar dari Zona Aman, mencuri telur dari zona dan markas lawan, menetaskannya menjadi hewan peliharaan, dan membiarkan hewan peliharaan tersebut menghasilkan Uang saat Anda merencanakan perjalanan berikutnya.",
+        "Sepeda melipatgandakan Kecepatan yang Anda peroleh di treadmill di samping markas Anda, sehingga setiap peningkatan memperpendek setiap putaran telur. Daftarnya berkisar dari Sepeda Standar gratis hingga Sepeda Api Beku, sementara kelangkaan telur, jalur, Lab Fuse, dan peningkatan basis menentukan seberapa cepat pendapatan hewan peliharaan Anda tumbuh."
+      ],
+      "stats": [
+        {
+          "label": "Pengembang",
+          "value": "Huron Games"
+        },
+        {
+          "label": "Platform",
+          "value": "Roblox"
+        },
+        {
+          "label": "Genre",
+          "value": "Taipan Pengumpul Telur"
+        },
+        {
+          "label": "Sepeda",
+          "value": "8"
+        },
+        {
+          "label": "Rilis",
+          "value": "15 September 2026"
+        },
+        {
+          "label": "Kunjungan",
+          "value": "2.8M+"
+        }
+      ],
+      "cta": "Jelajahi Semua Panduan"
+    },
+    "explore": {
+      "title": "Jelajahi Wiki New Bike for Egg",
+      "description": "Gunakan panduan New Bike for Egg ini untuk merencanakan perjalanan telur yang lebih cepat, memilih sepeda yang tepat, memahami barang langka dan hewan peliharaan, menukarkan kode, dan mempelajari kontrolnya.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Panduan Pemula New Bike for Egg",
+          "description": "Mulailah dengan Sepeda Standar gratis, pelajari Zona Aman dan Toko Sepeda, dan bangun lingkaran pendapatan yang berulang dari telur ke hewan peliharaan.",
+          "href": "/guide/new-bike-for-egg-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Selesaikan tujuan tutorial agar basis dan Penghitung Uang Anda aktif."
+            },
+            {
+              "label": "2",
+              "detail": "Menabung untuk peningkatan basis pertama daripada mengeluarkan uang untuk kosmetik."
+            },
+            {
+              "label": "3",
+              "detail": "Klaim Sepeda Standar gratis segera setelah peningkatan basis pertama dilakukan."
+            },
+            {
+              "label": "4",
+              "detail": "Jalankan rute telur pendek untuk mempelajari lokasi pemijahan, belokan, dan jarak pengereman."
+            },
+            {
+              "label": "5",
+              "detail": "Segera menetaskan dan menempatkan hewan peliharaan sehingga pendapatan uang pasif dimulai."
+            },
+            {
+              "label": "6",
+              "detail": "Bank menuju Football Bike hanya setelah pendapatan hewan peliharaan Anda berhasil."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Sepeda & Upgrade New Bike for Egg",
+          "description": "Bandingkan kedelapan wahana berdasarkan Pengganda kecepatan dan harga, dari Sepeda Standar gratis hingga Sepeda Api Beku Uang 500 miliar.",
+          "href": "/community/new-bike-for-egg-reddit",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Sepeda Api Beku - Kecepatan x9 untuk Uang 500B atau 159 Robux."
+            },
+            {
+              "label": "A",
+              "detail": "Sepeda Korblox - x7 untuk Uang 1 Miliar; Sepeda Benar - x5 untuk 150M."
+            },
+            {
+              "label": "B",
+              "detail": "Sepeda Dunia - x4 untuk 35 Robux; Frost Bike - x3 untuk Uang 1 Juta."
+            },
+            {
+              "label": "C",
+              "detail": "Sepeda Luar Angkasa - x2 untuk 50K; Sepeda Sepak Bola - x1.5 seharga 200 Uang; Sepeda Standar - x1 dan gratis."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Panduan Perkembangan New Bike for Egg",
+          "description": "Ubah telur menjadi pembuka kunci sepeda yang andal dengan menyelesaikan intro, melindungi jumlah telur Anda, dan menjalankan satu putaran pertanian yang efisien.",
+          "href": "/guide/new-bike-for-egg-how-to-unlock-eggs",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Selesaikan rantai intro hingga sumber telur aktif secara permanen."
+            },
+            {
+              "label": "2",
+              "detail": "Hapus penyimpanan dan tetaskan atau simpan telur yang bukan bagian dari pembukaan kunci."
+            },
+            {
+              "label": "3",
+              "detail": "Pilih satu sumber telur utama daripada membagi perhatian ke tiga peternakan."
+            },
+            {
+              "label": "4",
+              "detail": "Bangun loop tertutup yang berakhir kembali pada titik perjalanan cepat yang sama."
+            },
+            {
+              "label": "5",
+              "detail": "Periksa pengatur waktu respawn dan kumpulkan telur khusus sebelum telur biasa."
+            },
+            {
+              "label": "6",
+              "detail": "Selesaikan serah terima segera setelah jumlah telur yang dibutuhkan terpenuhi."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Kode New Bike for Egg",
+          "description": "Ikuti alur penukaran, konfirmasi apakah daftar kode aktif, dan gunakan rute Uang gratis saat kotak kode kosong.",
+          "href": "/codes/new-bike-for-egg-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "TANPA KODE",
+              "detail": "Tidak ada kode New Bike for Egg aktif yang terdaftar untuk Oktober 2026."
+            },
+            {
+              "label": "MENUKARKAN",
+              "detail": "Buka kode dalam game atau panel pengaturan, tempelkan string dengan tepat, dan tekan Tebus."
+            },
+            {
+              "label": "MEMERIKSA",
+              "detail": "Periksa kembali halaman Roblox resmi dan akun sosial pengembang setelah setiap pembaruan."
+            },
+            {
+              "label": "MENGHASILKAN",
+              "detail": "Jalankan rute telur berulang dan simpan Uang untuk Football Bike seharga 200 Money."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Tips & Trik New Bike for Egg",
+          "description": "Tingkatkan setiap sesi dengan rute yang lebih baik, penempatan hewan peliharaan, peningkatan jalur, dan penyangga uang tunai yang membuat penghasilan Anda terus mengalir.",
+          "href": "/mechanics/new-bike-for-egg-egg-collection",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Rute",
+              "detail": "Hubungkan dua atau tiga titik spawn terdekat sebelum kembali ke Zona Aman."
+            },
+            {
+              "label": "Hewan peliharaan",
+              "detail": "Tempatkan segera setiap hewan peliharaan yang menetas sehingga pendapatan uang pasifnya dimulai."
+            },
+            {
+              "label": "Fuse Lab",
+              "detail": "Gabungkan tiga hewan peliharaan serupa menjadi telur berbobot lebih tinggi dari spesies yang sama."
+            },
+            {
+              "label": "Trail",
+              "detail": "Tingkatkan pengganda jejak Anda karena dilengkapi dengan bonus Kecepatan sepeda."
+            },
+            {
+              "label": "Cadangan",
+              "detail": "Simpan cukup Uang untuk penetasan setelah pembelian sepeda agar kemajuan tidak terhenti."
+            },
+            {
+              "label": "Pembaruan",
+              "detail": "Periksa kembali Toko Sepeda setelah patch karena harga dan pengganda dapat berubah."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Unlockable New Bike for Egg",
+          "description": "Lacak kelangkaan telur, hewan peliharaan, jalan setapak, dan hadiah sepeda yang memperluas garasi Anda dan meningkatkan penghasilan pasif.",
+          "href": "/mechanics/new-bike-for-egg-egg-rarity",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Umum",
+              "detail": "Telur zona awal mengisi slot hewan peliharaan pertama dan mengajarkan putaran penetasan."
+            },
+            {
+              "label": "Tidak Umum",
+              "detail": "Telur tingkat menengah menambah hewan peliharaan yang lebih kuat dan langkah peningkatan jejak yang berguna."
+            },
+            {
+              "label": "Langka",
+              "detail": "Telur langka membuka bingkai yang lebih cepat dan hewan peliharaan perkembangan utama."
+            },
+            {
+              "label": "Epik",
+              "detail": "Telur epik menggabungkan Kecepatan yang kuat dengan penanganan yang lebih baik untuk zona yang diperebutkan."
+            },
+            {
+              "label": "Legendaris",
+              "detail": "Telur legendaris berada di dekat bagian atas kolam penetasan dan mendanai sepeda di akhir permainan."
+            },
+            {
+              "label": "Mythic",
+              "detail": "Telur mitis berasal dari zona terjauh dan membawa hadiah paling langka."
+            },
+            {
+              "label": "Rahasia",
+              "detail": "Telur rahasia memunculkan hadiah bagi pengendara cepat yang mencapai zona sebelum pemain lain."
+            },
+            {
+              "label": "Fuse Lab",
+              "detail": "Tiga hewan peliharaan serupa dapat menjadi satu telur dengan bobot lebih tinggi dari spesies yang sama."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Kontrol New Bike for Egg",
+          "description": "Atur kemudi bergerak, throttle, pengereman, dan respons kamera sehingga sepeda yang lebih cepat tetap dapat dikendalikan di zona sempit.",
+          "href": "/controls/new-bike-for-egg-mobile-controls",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "JOYSTICK",
+              "detail": "Gunakan joystick virtual untuk kemudi yang paling nyaman pada ponsel kecil."
+            },
+            {
+              "label": "MEMIRINGKAN",
+              "detail": "Kalibrasi kemudi miring dan pertahankan sensitivitas tetap rendah untuk tikungan yang panjang."
+            },
+            {
+              "label": "GAS",
+              "detail": "Terapkan throttle parsial di luar tikungan untuk menghindari tergelincir lebar pada sepeda yang lebih cepat."
+            },
+            {
+              "label": "REM",
+              "detail": "Pindahkan titik pengereman Anda lebih awal karena sepeda yang ditingkatkan memiliki kecepatan lebih tinggi."
+            },
+            {
+              "label": "KAMERA",
+              "detail": "Naikkan kecepatan ikuti kamera saat sudut tiba lebih cepat dari pandangan."
+            },
+            {
+              "label": "HUD",
+              "detail": "Skalakan tombol sentuh ke 110 hingga 120 persen sehingga input penyimpangan tidak terlewatkan."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "FAQ New Bike for Egg",
+          "description": "Dapatkan jawaban cepat tentang sepeda starter gratis, Toko Sepeda, pendapatan hewan peliharaan, kelangkaan telur, dan status kode saat ini.",
+          "href": "/guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Mulai",
+              "detail": "New Bike for Egg dimulai dengan tutorial, Safe Zone, dan Standard Bike gratis."
+            },
+            {
+              "label": "Sepeda",
+              "detail": "Toko Sepeda di sisi kanan Zona Aman menjual setiap perjalanan setelah permulaan."
+            },
+            {
+              "label": "Uang",
+              "detail": "Hewan peliharaan menghasilkan Uang setiap detik, dan pendapatan itu mendanai setiap peningkatan sepeda."
+            },
+            {
+              "label": "Telur",
+              "detail": "Telur dengan kelangkaan lebih tinggi membutuhkan waktu lebih lama untuk dijangkau, tetapi membuka hewan peliharaan dan hadiah yang lebih kuat."
+            },
+            {
+              "label": "Kode",
+              "detail": "Tidak ada kode aktif yang terdaftar, jadi rute telur tetap menjadi sumber Uang yang dapat diandalkan."
+            },
+            {
+              "label": "Fusi",
+              "detail": "Fuse Lab mengubah tiga hewan peliharaan serupa menjadi satu telur berbobot lebih tinggi dari spesies yang sama."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan Umum New Bike for Egg",
+      "description": "Jawaban atas pertanyaan New Bike for Egg paling umum tentang sepeda, Uang, telur, hewan peliharaan, kode, dan perkembangan.",
+      "items": [
+        {
+          "question": "Apa itu New Bike for Egg?",
+          "answer": "New Bike for Egg adalah game taipan Roblox dari Huron Games di mana pemain mencuri telur, menetaskan hewan peliharaan, mendapatkan Uang pasif, dan meningkatkan sepeda untuk berlari lebih cepat."
+        },
+        {
+          "question": "Bagaimana cara mendapatkan sepeda pertama di New Bike for Egg?",
+          "answer": "Beli peningkatan basis pertama Anda, lalu klaim Sepeda Standar gratis. Football Bike adalah langkah selanjutnya dalam 200 Uang atau 1 Robux."
+        },
+        {
+          "question": "Apa sepeda tercepat di New Bike for Egg?",
+          "answer": "Frozen Flame Bike memiliki pengganda Kecepatan tertinggi di x9. Harganya Uang 500 Milyar atau 159 Robux di Bike Shop."
+        },
+        {
+          "question": "Bagaimana cara kerja Uang di New Bike for Egg?",
+          "answer": "Hewan peliharaan yang menetas menghasilkan Uang setiap detik. Jaga agar hewan peliharaan tetap ditempatkan, bersihkan rute telur, dan investasikan kembali pada sepeda, jalan setapak, dan peningkatan pangkalan."
+        },
+        {
+          "question": "Apakah ada kode New Bike for Egg yang berfungsi?",
+          "answer": "Tidak ada kode New Bike for Egg aktif yang terdaftar untuk Oktober 2026. Periksa halaman resmi Roblox dan akun pengembang setelah pembaruan."
+        },
+        {
+          "question": "Apa yang harus saya tingkatkan setelah sepeda New Bike for Egg?",
+          "answer": "Tingkatkan slot hewan peliharaan, jalur, penyimpanan telur, dan akses zona sebelum membeli sepeda lain. Sistem ini menjaga pendapatan hewan peliharaan dan produksi telur tetap berjalan."
+        },
+        {
+          "question": "Di mana Toko Sepeda di New Bike for Egg?",
+          "answer": "Toko Sepeda berada di sisi kanan Zona Aman. Lengkapi sepeda yang dibeli di sana dan uji penggandanya di treadmill."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Siap Menguasai New Bike for Egg?",
+      "description": "Dari sepeda gratis pertama hingga kecepatan Frozen Flame, wiki New Bike for Egg kami mencakup kode, tingkatan sepeda, telur, hewan peliharaan, kontrol, dan progres.",
+      "primary": "Baca Panduan Pemula",
+      "secondary": "Mainkan di Roblox"
+    }
+  },
+  "bosses": {},
+  "shared": {
+    "wikiNavigation": "Navigasi Wiki",
+    "activeCodes": "Kode Aktif",
+    "updated": "Diperbarui",
+    "viewAllCodes": "Lihat semua kode",
+    "playOnRoblox": "Mainkan di Roblox",
+    "inThisSection": "Di bagian ini",
+    "tableOfContents": "Daftar isi",
+    "nextSteps": "Langkah Selanjutnya",
+    "needHelp": "Butuh Bantuan?",
+    "relatedReading": "Bacaan Terkait",
+    "relatedGuides": "Panduan Terkait",
+    "readMore": "Baca selengkapnya",
+    "officialMedia": "Media resmi",
+    "home": "Beranda",
+    "noGuidesAvailable": "Belum ada panduan yang tersedia. Segera periksa kembali!",
+    "noActiveCodes": "Tidak ada kode aktif yang tersedia saat ini",
+    "checkBackSoon": "Periksa kembali nanti untuk melihat kode baru"
+  },
+  "notFound": {
+    "title": "Halaman tidak ditemukan",
+    "description": "Panduan yang Anda cari mungkin sudah pindah atau belum ditambahkan.",
+    "browse": "Telusuri Panduan Pemula"
+  },
+  "footer": {
+    "aboutTitle": "Bike For Egg Wiki",
+    "about": "Bike For Egg Wiki adalah pusat panduan independen buatan penggemar yang membahas sepeda, telur, hewan peliharaan, peningkatan kecepatan, farming uang, mutasi, dan strategi pemula untuk pemain Roblox.",
+    "quickLinks": "Tautan Cepat",
+    "guides": "Panduan",
+    "legal": "Legal",
+    "copyright": "2026 Bike For Egg Wiki. Tidak berafiliasi dengan Huron Games atau Roblox.",
+    "description": "Tycoon hewan peliharaan pengumpul telur Roblox dengan sepeda, hewan peliharaan, telur, peningkatan, dan farming uang.",
+    "playGame": "Mainkan Bike For Egg di Roblox",
+    "officialDiscord": "Discord Komunitas",
+    "officialYoutube": "Video Gameplay Bike For Egg",
+    "vvBuilder": "Alat Bike For Egg",
+    "beginnerGuide": "Panduan Pemula",
+    "mechanicsGuides": "Mekanika",
+    "itemsGuides": "Item & Hewan Peliharaan",
+    "updatesGuides": "Pembaruan",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsOfService": "Ketentuan Layanan"
+  }
+}

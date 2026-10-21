@@ -1,1 +1,547 @@
-{}
+{
+  "site": {
+    "name": "Bike For Egg Wiki",
+    "shortName": "Bike For Egg",
+    "tagline": "Guias de ovos, bicicletas, pets e dinheiro",
+    "description": "Seu guia completo para fãs de Bike For Egg no Roblox, com códigos, classificações de bicicletas, guias de ovos e pets, upgrades de velocidade, dicas de farming de dinheiro e estratégias para iniciantes.",
+    "legalNotice": "Wiki de fãs não oficial. Não afiliado à Huron Games ou à Roblox."
+  },
+  "nav": {
+    "home": "Início",
+    "menu": "Menu",
+    "toggleTheme": "Alternar tema",
+    "guide": "Guia",
+    "mechanics": "Mecânica",
+    "items": "Itens",
+    "updates": "Atualizações",
+    "community": "Comunidade",
+    "controls": "Controles",
+    "codes": "Códigos"
+  },
+  "guide": {
+    "overviewTitle": "Guia de New Bike for Egg: comece forte",
+    "overviewDescription": "Aprenda a jogar New Bike for Egg, desbloqueie seus primeiros passeios e ovos, encontre ovos raros e siga a progressão mais rápida da bicicleta."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecânicas de New Bike for Egg explicadas",
+    "overviewDescription": "Entenda a velocidade da bicicleta, coleta de ovos, raridade de ovos, roubo de ovos, corrida e sistemas de incubação em New Bike for Egg."
+  },
+  "items": {
+    "overviewTitle": "Itens de New Bike for Egg: ovos, pets e bicicletas",
+    "overviewDescription": "Compare ovos raros, míticos e secretos, descubra as melhores bicicletas e monte uma coleção de pets mais forte em New Bike for Egg."
+  },
+  "updates": {
+    "overviewTitle": "Atualizações e eventos de New Bike for Egg",
+    "overviewDescription": "Acompanhe novas atualizações, eventos sazonais, bicicletas novas e mudanças de recursos no roadmap de New Bike for Egg."
+  },
+  "community": {
+    "overviewTitle": "Comunidade e recursos de New Bike for Egg",
+    "overviewDescription": "Encontre discussões de New Bike for Egg no Reddit, comunidades no Discord, vídeos de gameplay e estratégias compartilhadas por jogadores."
+  },
+  "controls": {
+    "overviewTitle": "Controles e dicas de pilotagem de New Bike for Egg",
+    "overviewDescription": "Domine os controles de teclado, celular e controle de New Bike for Egg e melhore o movimento e as rotas de pilotagem."
+  },
+  "codes": {
+    "overviewTitle": "Códigos de New Bike for Egg",
+    "overviewDescription": "Encontre códigos ativos de New Bike for Egg, aprenda a resgatá-los e receba recompensas grátis para sua próxima corrida."
+  },
+  "home": {
+    "meta": {
+      "title": "Wiki New Bike for Egg - Códigos, Bicicletas e Pets",
+      "description": "Explore guias de New Bike for Egg sobre códigos, níveis de velocidade, raridade de ovos, renda de pets, controles, atualizações e progressão para iniciantes no Roblox."
+    },
+    "hero": {
+      "eyebrow": "Tycoon de bicicletas e coleta de ovos no Roblox",
+      "title": "New Bike for Egg Wiki",
+      "description": "Domine New Bike for Egg com guias práticos sobre multiplicadores de velocidade, raridade de ovos, renda de pets, códigos, controles e progressão inicial rápida.",
+      "stats": [
+        "Mais de 2,8 milhões de visitas totais",
+        "8 bicicletas disponíveis",
+        "CCU de pico de 59,5K",
+        "Lançamento de 15 de setembro de 2026"
+      ],
+      "primaryCta": "Jogue no Roblox",
+      "secondaryCta": "Guia para iniciantes",
+      "tertiaryCta": "Códigos e recompensas",
+      "videoLabel": "Gameplay de New Bike for Egg"
+    },
+    "updates": {
+      "title": "Últimas atualizações de New Bike for Egg",
+      "browse": "Navegue por todos os guias",
+      "viewAll": "Ver tudo"
+    },
+    "start": {
+      "eyebrow": "Comece aqui",
+      "title": "Sua jornada em New Bike for Egg",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guia para iniciantes",
+          "description": "Aprenda o ciclo principal: resgate a Bicicleta Padrão grátis, faça rotas de ovos, choque pets e coloque-os para gerar renda passiva."
+        },
+        {
+          "number": "2",
+          "title": "Upgrades de bicicleta mais rápidos",
+          "description": "Siga a progressão de bicicletas da Football Bike de 200 Money até Frost, Righteous, Korblox e Frozen Flame."
+        },
+        {
+          "number": "3",
+          "title": "Melhor farming de ovos",
+          "description": "Crie rotas estreitas de duas zonas, armazene ovos em lotes e mire em pools de maior raridade antes de gastar."
+        },
+        {
+          "number": "4",
+          "title": "Códigos ativos",
+          "description": "Verifique as etapas de resgate e o status atual dos códigos antes de farmar sua próxima bicicleta."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Guias de New Bike for Egg em alta",
+      "quickLinks": [
+        "Guia para iniciantes",
+        "Níveis de velocidade da bicicleta",
+        "Raridade do Ovo",
+        "Todos os códigos"
+      ],
+      "cards": [
+        {
+          "badge": "Início",
+          "title": "Guia para iniciantes New Bike for Egg",
+          "description": "Reivindique a bicicleta grátis, aprenda a Zona Segura e construa um ciclo repetível do ovo ao animal de estimação.",
+          "href": "/guide/new-bike-for-egg-beginner-guide"
+        },
+        {
+          "badge": "Códigos",
+          "title": "Códigos New Bike for Egg",
+          "description": "Veja o status atual do código, as etapas de resgate e a rota de dinheiro grátis mais rápida.",
+          "href": "/codes/new-bike-for-egg-codes"
+        },
+        {
+          "badge": "Bicicletas",
+          "title": "Cada bicicleta classificada por velocidade",
+          "description": "Compare todas as oito bicicletas por multiplicador de velocidade, preço monetário e custo Robux.",
+          "href": "/community/new-bike-for-egg-reddit"
+        },
+        {
+          "badge": "Ovos",
+          "title": "Raridade dos ovos e probabilidades de eclosão",
+          "description": "Entenda os ovos comuns até os lendários e quando chocar em lotes.",
+          "href": "/mechanics/new-bike-for-egg-egg-rarity"
+        },
+        {
+          "badge": "Animais de estimação",
+          "title": "Animais de estimação e renda passiva",
+          "description": "Aprenda como animais de estimação colocados geram dinheiro e quando usar o Fuse Lab.",
+          "href": "/items/new-bike-for-egg-pets"
+        },
+        {
+          "badge": "Controles",
+          "title": "Configuração de controles móveis",
+          "description": "Ajuste a direção, aceleração, frenagem, velocidade da câmera e tamanho do botão de toque.",
+          "href": "/controls/new-bike-for-egg-mobile-controls"
+        },
+        {
+          "badge": "Atualizações",
+          "title": "Últimas novas bicicletas",
+          "description": "Veja as bicicletas mais novas e os ganhos de velocidade que importam para farmar ovos.",
+          "href": "/updates/new-bike-for-egg-new-bikes"
+        },
+        {
+          "badge": "Comunidade",
+          "title": "Guia de negociação Discord",
+          "description": "Prepare uma negociação de ovos, verifique as ofertas e evite padrões comuns de fraudes.",
+          "href": "/community/new-bike-for-egg-discord"
+        },
+        {
+          "badge": "Segredos",
+          "title": "Guia do ovo secreto",
+          "description": "Encontre spawns de ovos secretos, cronometre suas rotas e chegue à zona antes dos rivais.",
+          "href": "/guide/new-bike-for-egg-secret-egg-guide"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é New Bike for Egg?",
+      "paragraphs": [
+        "New Bike for Egg é um jogo tycoon gratuito de Roblox da Huron Games. Você sai de uma zona segura, rouba ovos de zonas e bases rivais, choca-os como pets e deixa esses pets gerarem Money enquanto planeja a próxima corrida.",
+        "As bicicletas multiplicam a Speed que você ganha na esteira ao lado da sua base, então cada upgrade encurta cada rota de ovos. A lista vai da Standard Bike grátis até a Frozen Flame Bike, enquanto raridade de ovos, trails, Fuse Lab e upgrades de base definem a velocidade com que a renda dos seus pets cresce."
+      ],
+      "stats": [
+        {
+          "label": "Desenvolvedor",
+          "value": "Huron Games"
+        },
+        {
+          "label": "Plataforma",
+          "value": "Roblox"
+        },
+        {
+          "label": "Gênero",
+          "value": "Magnata Coletor de Ovos"
+        },
+        {
+          "label": "Bicicletas",
+          "value": "8"
+        },
+        {
+          "label": "Lançamento",
+          "value": "15 de setembro de 2026"
+        },
+        {
+          "label": "Visitas",
+          "value": "2.8M+"
+        }
+      ],
+      "cta": "Explore todos os guias"
+    },
+    "explore": {
+      "title": "Explore a wiki de New Bike for Egg",
+      "description": "Use estes guias de New Bike for Egg para planejar rotas de ovos mais rápidas, escolher a bicicleta certa, entender raridade e pets, resgatar códigos e aprender os controles.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guia para iniciantes de New Bike for Egg",
+          "description": "Comece com a Bicicleta Padrão gratuita, conheça a Zona Segura e a Loja de Bicicletas e construa um ciclo de renda repetível do ovo ao animal de estimação.",
+          "href": "/guide/new-bike-for-egg-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Complete os objetivos do tutorial para que sua base e seu contador de dinheiro fiquem ativos."
+            },
+            {
+              "label": "2",
+              "detail": "Economize para a primeira atualização básica em vez de gastar em cosméticos."
+            },
+            {
+              "label": "3",
+              "detail": "Reivindique a Bicicleta Padrão gratuita assim que a primeira atualização básica chegar."
+            },
+            {
+              "label": "4",
+              "detail": "Execute uma rota curta de ovos para aprender locais de desova, curvas e distância de frenagem."
+            },
+            {
+              "label": "5",
+              "detail": "Choque e coloque animais de estimação imediatamente para que a renda passiva em dinheiro comece."
+            },
+            {
+              "label": "6",
+              "detail": "Deposite na Football Bike somente depois que a renda do seu animal de estimação estiver funcionando."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Bicicletas e upgrades de New Bike for Egg",
+          "description": "Compare as oito bicicletas por multiplicador de velocidade e preço, da Standard Bike grátis à Frozen Flame Bike de 500 bilhões de Money.",
+          "href": "/community/new-bike-for-egg-reddit",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Bicicleta Frozen Flame - Velocidade x9 por 500B Money ou 159 Robux."
+            },
+            {
+              "label": "A",
+              "detail": "Bicicleta Korblox - x7 por 1B de dinheiro; Bicicleta Justa - x5 por 150M."
+            },
+            {
+              "label": "B",
+              "detail": "Bicicleta Mundial - x4 por 35 Robux; Bicicleta Frost - x3 por 1 milhão de dinheiro."
+            },
+            {
+              "label": "C",
+              "detail": "Bicicleta Espacial - x2 por 50K; Bicicleta de futebol - x1,5 por 200 dinheiro; Bicicleta Padrão - x1 e grátis."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guia de progressão de New Bike for Egg",
+          "description": "Transforme ovos em um desbloqueio de bicicleta confiável completando a introdução, protegendo sua contagem de ovos e executando um loop de farming eficiente.",
+          "href": "/guide/new-bike-for-egg-how-to-unlock-eggs",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Termine a cadeia de introdução até que a fonte do ovo esteja permanentemente ativa."
+            },
+            {
+              "label": "2",
+              "detail": "Limpe o armazenamento e incube ou armazene ovos que não fazem parte do desbloqueio."
+            },
+            {
+              "label": "3",
+              "detail": "Escolha uma fonte primária de ovos em vez de dividir a atenção em três granjas."
+            },
+            {
+              "label": "4",
+              "detail": "Construa um circuito fechado que termine no mesmo ponto de deslocamento rápido."
+            },
+            {
+              "label": "5",
+              "detail": "Verifique os temporizadores de reaparecimento e colete os ovos especiais antes dos ovos comuns."
+            },
+            {
+              "label": "6",
+              "detail": "Conclua a transferência assim que a contagem de ovos necessária for atingida."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Códigos de New Bike for Egg",
+          "description": "Siga o fluxo de resgate, confirme se a lista de códigos está ativa e use a rota de Money grátis quando a caixa de códigos estiver vazia.",
+          "href": "/codes/new-bike-for-egg-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "SEM CÓDIGO",
+              "detail": "Nenhum código New Bike for Egg ativo está listado para outubro de 2026."
+            },
+            {
+              "label": "RESGATAR",
+              "detail": "Abra os códigos do jogo ou o painel de configurações, cole a string exatamente e pressione Resgatar."
+            },
+            {
+              "label": "VERIFICAR",
+              "detail": "Verifique novamente a página oficial do Roblox e as contas sociais do desenvolvedor após cada atualização."
+            },
+            {
+              "label": "GANHAR",
+              "detail": "Execute rotas de ovos repetíveis e guarde Money para a Football Bike de 200 Money."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Dicas e truques de New Bike for Egg",
+          "description": "Melhore cada sessão com rotas melhores, posicionamento de pets, upgrades de trail e uma reserva de Money que mantém sua renda em movimento.",
+          "href": "/mechanics/new-bike-for-egg-egg-collection",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Rotas",
+              "detail": "Acorrente dois ou três pontos de spawn próximos antes de retornar à Zona Segura."
+            },
+            {
+              "label": "Animais de estimação",
+              "detail": "Coloque cada animal de estimação nascido imediatamente para que sua renda passiva em dinheiro comece."
+            },
+            {
+              "label": "Fuse Lab",
+              "detail": "Combine três animais de estimação semelhantes em um ovo de maior peso da mesma espécie."
+            },
+            {
+              "label": "Trilhas",
+              "detail": "Atualize seu multiplicador de trilha porque ele acumula com o bônus de velocidade da bicicleta."
+            },
+            {
+              "label": "Reserva",
+              "detail": "Guarde dinheiro suficiente para a eclosão após a compra de uma bicicleta, para que o progresso não pare."
+            },
+            {
+              "label": "Atualizações",
+              "detail": "Verifique novamente a Bike Shop após um patch porque os preços e multiplicadores podem mudar."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Desbloqueáveis de New Bike for Egg",
+          "description": "Acompanhe raridades de ovos, pets, trails e recompensas de bicicletas que ampliam sua garagem e aumentam a renda passiva.",
+          "href": "/mechanics/new-bike-for-egg-egg-rarity",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Comum",
+              "detail": "Os ovos da zona inicial preenchem os primeiros espaços para animais de estimação e ensinam o ciclo de eclosão."
+            },
+            {
+              "label": "Incomum",
+              "detail": "Ovos de nível intermediário adicionam animais de estimação mais fortes e uma etapa útil de atualização de trilha."
+            },
+            {
+              "label": "Raro",
+              "detail": "Ovos raros desbloqueiam quadros mais rápidos e os principais animais de estimação da progressão."
+            },
+            {
+              "label": "Épico",
+              "detail": "Ovos épicos combinam alta velocidade com melhor manuseio em zonas contestadas."
+            },
+            {
+              "label": "Lendário",
+              "detail": "Ovos lendários ficam perto do topo da piscina de incubação e financiam bicicletas no final do jogo."
+            },
+            {
+              "label": "Mítico",
+              "detail": "Os ovos míticos vêm das zonas mais distantes e trazem as recompensas mais raras."
+            },
+            {
+              "label": "Segredo",
+              "detail": "Os ovos secretos geram recompensas para os pilotos rápidos que chegam à zona antes dos outros jogadores."
+            },
+            {
+              "label": "Fuse Lab",
+              "detail": "Três animais de estimação semelhantes podem se tornar um ovo de maior peso da mesma espécie."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Controles de New Bike for Egg",
+          "description": "Configure direção, acelerador, frenagem e resposta da câmera no celular para que uma bicicleta mais rápida continue controlável em zonas apertadas.",
+          "href": "/controls/new-bike-for-egg-mobile-controls",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "JOYSTICK",
+              "detail": "Use o joystick virtual para obter uma direção mais indulgente em telefones pequenos."
+            },
+            {
+              "label": "INCLINAR",
+              "detail": "Calibre a direção inclinada e mantenha a sensibilidade baixa para curvas longas."
+            },
+            {
+              "label": "ACELERADOR",
+              "detail": "Aplique aceleração parcial fora das curvas para evitar deslizamentos amplos em uma bicicleta mais rápida."
+            },
+            {
+              "label": "FREIO",
+              "detail": "Mova seu ponto de frenagem mais cedo porque as bicicletas atualizadas carregam mais velocidade."
+            },
+            {
+              "label": "CÂMERA",
+              "detail": "Aumente a velocidade de acompanhamento da câmera quando os cantos chegarem mais rápido que a visualização."
+            },
+            {
+              "label": "HUD",
+              "detail": "Dimensione os botões de toque para 110 a 120 por cento para que as entradas de desvio não sejam perdidas."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "FAQ de New Bike for Egg",
+          "description": "Obtenha respostas rápidas sobre a bicicleta inicial grátis, a Bike Shop, a renda de pets, a raridade de ovos e o status atual dos códigos.",
+          "href": "/guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Início",
+              "detail": "New Bike for Egg começa com o tutorial, a Zona Segura e a Bicicleta Padrão gratuita."
+            },
+            {
+              "label": "Bicicletas",
+              "detail": "A Bike Shop no lado direito da Zona Segura vende todos os passeios após o início."
+            },
+            {
+              "label": "Dinheiro",
+              "detail": "Animais de estimação geram dinheiro a cada segundo, e essa renda financia cada atualização de bicicleta."
+            },
+            {
+              "label": "Ovos",
+              "detail": "Ovos de maior raridade demoram mais para serem alcançados, mas desbloqueiam animais de estimação e recompensas mais fortes."
+            },
+            {
+              "label": "Códigos",
+              "detail": "Nenhum código ativo está listado, então as rotas de ovos continuam sendo uma fonte confiável de dinheiro."
+            },
+            {
+              "label": "Fusão",
+              "detail": "O Fuse Lab transforma três animais de estimação semelhantes em um ovo de maior peso da mesma espécie."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes sobre New Bike for Egg",
+      "description": "Respostas às perguntas mais comuns do New Bike for Egg sobre bicicletas, dinheiro, ovos, animais de estimação, códigos e progressão.",
+      "items": [
+        {
+          "question": "O que é New Bike for Egg?",
+          "answer": "New Bike for Egg é um jogo de magnata Roblox da Huron Games onde os jogadores roubam ovos, chocam animais de estimação, ganham dinheiro passivo e atualizam bicicletas para corridas mais rápidas."
+        },
+        {
+          "question": "Como consigo a primeira bicicleta no New Bike for Egg?",
+          "answer": "Compre sua primeira atualização básica e depois resgate a Bicicleta Padrão gratuita. A Football Bike é o próximo passo com 200 Money ou 1 Robux."
+        },
+        {
+          "question": "Qual é a bicicleta mais rápida do New Bike for Egg?",
+          "answer": "A Frozen Flame Bike tem o maior multiplicador de velocidade em x9. Custa 500 bilhões de dinheiro ou 159 Robux na Bike Shop."
+        },
+        {
+          "question": "Como funciona o dinheiro no New Bike for Egg?",
+          "answer": "Animais de estimação nascidos geram dinheiro a cada segundo. Mantenha os animais de estimação no lugar, limpe as rotas dos ovos e reinvestir em bicicletas, trilhas e atualizações de base."
+        },
+        {
+          "question": "Existem códigos New Bike for Egg funcionais?",
+          "answer": "Nenhum código New Bike for Egg ativo está listado para outubro de 2026. Verifique a página oficial do Roblox e as contas do desenvolvedor após as atualizações."
+        },
+        {
+          "question": "O que devo atualizar depois de uma bicicleta New Bike for Egg?",
+          "answer": "Atualize os slots para animais de estimação, trilhas, armazenamento de ovos e acesso à zona antes de comprar outra bicicleta. Esses sistemas mantêm a renda dos animais de estimação e a produção de ovos em movimento."
+        },
+        {
+          "question": "Onde fica a loja de bicicletas em New Bike for Egg?",
+          "answer": "A Bike Shop fica no lado direito da Zona Segura. Equipe lá uma bicicleta comprada e teste seu multiplicador na esteira."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para dominar o New Bike for Egg?",
+      "description": "Da sua primeira bicicleta grátis à velocidade Frozen Flame, nosso wiki New Bike for Egg cobre códigos, níveis de bicicleta, ovos, animais de estimação, controles e progressão.",
+      "primary": "Leia o guia para iniciantes",
+      "secondary": "Jogue no Roblox"
+    }
+  },
+  "bosses": {},
+  "shared": {
+    "wikiNavigation": "Navegação Wiki",
+    "activeCodes": "Códigos Ativos",
+    "updated": "Atualizado",
+    "viewAllCodes": "Ver todos os códigos",
+    "playOnRoblox": "Jogue no Roblox",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximas etapas",
+    "needHelp": "Precisa de ajuda?",
+    "relatedReading": "Leitura Relacionada",
+    "relatedGuides": "Guias Relacionados",
+    "readMore": "Leia mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Início",
+    "noGuidesAvailable": "Nenhum guia disponível ainda. Volte em breve!",
+    "noActiveCodes": "Nenhum código ativo disponível atualmente",
+    "checkBackSoon": "Volte em breve para novos códigos"
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "description": "O guia que você procura pode ter sido movido ou ainda não foi adicionado.",
+    "browse": "Procure guias para iniciantes"
+  },
+  "footer": {
+    "aboutTitle": "Bike For Egg Wiki",
+    "about": "Bike For Egg Wiki é um hub de guias independente feito por fãs que cobre bicicletas, ovos, pets, upgrades de velocidade, farming de dinheiro, mutações e estratégias para iniciantes no Roblox.",
+    "quickLinks": "Links rápidos",
+    "guides": "Guias",
+    "legal": "Jurídico",
+    "copyright": "2026 Bike For Egg Wiki. Não afiliado à Huron Games ou à Roblox.",
+    "description": "Tycoon de pets e coleta de ovos no Roblox com bicicletas, pets, ovos, upgrades e farming de dinheiro.",
+    "playGame": "Jogue Bike For Egg no Roblox",
+    "officialDiscord": "Discord da comunidade",
+    "officialYoutube": "Vídeo de gameplay de Bike For Egg",
+    "vvBuilder": "Ferramentas de Bike For Egg",
+    "beginnerGuide": "Guia para iniciantes",
+    "mechanicsGuides": "Mecânica",
+    "itemsGuides": "Itens e animais de estimação",
+    "updatesGuides": "Atualizações",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço"
+  }
+}
